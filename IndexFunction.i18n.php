@@ -172,13 +172,14 @@ $messages['bg'] = array(
 );
 
 /** Bengali (বাংলা)
+ * @author Bellayet
  * @author Wikitanvir
  */
 $messages['bn'] = array(
 	'indexfunc-badtitle' => 'অপ্রযোজ্য শিরোনাম: "$1"',
 	'index' => 'নির্ঘণ্ট অনুসন্ধান',
 	'index-legend' => 'নির্ঘণ্টে অনুসন্ধান করুন',
-	'index-search' => 'অনুসন্ধান:',
+	'index-search' => 'অনুসন্ধান',
 	'index-submit' => 'জমা দাও',
 	'index-disambig-start' => "'''$1''' অনেক পাতায় নির্দেশিত হতে পারে:",
 	'index-hide-detail' => 'পাতার তালিকা লুকাও',
