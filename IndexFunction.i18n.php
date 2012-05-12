@@ -57,7 +57,7 @@ $messages['qqq'] = array(
 	'index-search-explain' => 'If your language permits, you can replace <code>submit</code> with <code>{<nowiki />{int:index-submit}}</code> for the button label.',
 );
 
-/** Abkhazian (Аҧсуа)
+/** Abkhazian (Аҧсшәа)
  * @author Temuri rajavi
  */
 $messages['ab'] = array(
@@ -1413,7 +1413,7 @@ $messages['tr'] = array(
 	'index-no-results' => 'Aramada sonuç bulunamadı',
 );
 
-/** Uyghur (Latin script) (Uyghurche‎) */
+/** Uyghur (Latin script) (Uyghurche) */
 $messages['ug-latn'] = array(
 	'index-search' => 'Izdash:',
 );
@@ -1432,7 +1432,7 @@ $messages['uk'] = array(
 	'index-no-results' => 'Пошук не дав результатів',
 );
 
-/** Veps (Vepsan kel')
+/** Veps (Vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
