@@ -43,6 +43,11 @@ $specialPageAliases['bs'] = array(
 	'Index' => array( 'Indeks' ),
 );
 
+/** Zazaki (Zazaki) */
+$specialPageAliases['diq'] = array(
+	'Index' => array( 'İndeks' ),
+);
+
 /** Esperanto (Esperanto) */
 $specialPageAliases['eo'] = array(
 	'Index' => array( 'Indekso' ),
