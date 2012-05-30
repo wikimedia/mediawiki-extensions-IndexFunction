@@ -1308,6 +1308,13 @@ $messages['sr-el'] = array(
 	'index-no-results' => 'Pretraga nije dala nikakve rezultate',
 );
 
+/** Seeltersk (Seeltersk)
+ * @author Pyt
+ */
+$messages['stq'] = array(
+	'index-search' => 'Säik',
+);
+
 /** Swedish (Svenska)
  * @author Rotsee
  */
