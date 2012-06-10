@@ -867,6 +867,13 @@ Donn de eezte pa Bochshtave udder Zeijsche tippe, un donn dann dä Knopp „{{in
 	'index-details-explain' => 'Endrääsch met piele en för för automattesche Ömleijdunge un automattesche „Watt ėßß datt?“-Sigge. Donn op dä Piel klecke, öm all di automattesche Ömleijdunge un automattesche „Watt ėßß datt?“-Sigge jezeijsch ze krijje, di dä Tittel han.',
 );
 
+/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+ * @author George Animal
+ */
+$messages['ku-latn'] = array(
+	'index-search' => 'Lêgerîn:',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
