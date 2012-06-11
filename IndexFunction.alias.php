@@ -33,12 +33,12 @@ $specialPageAliases['arz'] = array(
 	'Index' => array( 'فهرس' ),
 );
 
-/** Breton (Brezhoneg) */
+/** Breton (brezhoneg) */
 $specialPageAliases['br'] = array(
 	'Index' => array( 'Meneger' ),
 );
 
-/** Bosnian (Bosanski) */
+/** Bosnian (bosanski) */
 $specialPageAliases['bs'] = array(
 	'Index' => array( 'Indeks' ),
 );
@@ -53,7 +53,7 @@ $specialPageAliases['eo'] = array(
 	'Index' => array( 'Indekso' ),
 );
 
-/** Spanish (Español) */
+/** Spanish (español) */
 $specialPageAliases['es'] = array(
 	'Index' => array( 'Índice' ),
 );
@@ -63,7 +63,7 @@ $specialPageAliases['fa'] = array(
 	'Index' => array( 'نمایه' ),
 );
 
-/** Franco-Provençal (Arpetan) */
+/** Franco-Provençal (arpetan) */
 $specialPageAliases['frp'] = array(
 	'Index' => array( 'Endèxe' ),
 );
@@ -83,7 +83,7 @@ $specialPageAliases['ht'] = array(
 	'Index' => array( 'Endèks' ),
 );
 
-/** Interlingua (Interlingua) */
+/** Interlingua (interlingua) */
 $specialPageAliases['ia'] = array(
 	'Index' => array( 'Indice' ),
 );
@@ -98,7 +98,7 @@ $specialPageAliases['ig'] = array(
 	'Index' => array( 'Ndetu_nlé' ),
 );
 
-/** Italian (Italiano) */
+/** Italian (italiano) */
 $specialPageAliases['it'] = array(
 	'Index' => array( 'Indice' ),
 );
@@ -108,7 +108,12 @@ $specialPageAliases['ja'] = array(
 	'Index' => array( '索引' ),
 );
 
-/** Cornish (Kernowek) */
+/** Korean (한국어) */
+$specialPageAliases['ko'] = array(
+	'Index' => array( '색인' ),
+);
+
+/** Cornish (kernowek) */
 $specialPageAliases['kw'] = array(
 	'Index' => array( 'Menegva' ),
 );
@@ -118,7 +123,7 @@ $specialPageAliases['lad'] = array(
 	'Index' => array( 'Fijhrist' ),
 );
 
-/** Macedonian (Македонски) */
+/** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'Index' => array( 'Индекс' ),
 );
@@ -133,12 +138,12 @@ $specialPageAliases['mr'] = array(
 	'Index' => array( 'सूची' ),
 );
 
-/** Norwegian Bokmål (‪Norsk (bokmål)‬) */
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $specialPageAliases['nb'] = array(
 	'Index' => array( 'Indeks' ),
 );
 
-/** Polish (Polski) */
+/** Polish (polski) */
 $specialPageAliases['pl'] = array(
 	'Index' => array( 'Indeks' ),
 );
@@ -148,7 +153,7 @@ $specialPageAliases['ps'] = array(
 	'Index' => array( 'ليکلړ' ),
 );
 
-/** Portuguese (Português) */
+/** Portuguese (português) */
 $specialPageAliases['pt'] = array(
 	'Index' => array( 'Índice' ),
 );
@@ -158,12 +163,12 @@ $specialPageAliases['si'] = array(
 	'Index' => array( 'සූචිය' ),
 );
 
-/** Slovenian (Slovenščina) */
+/** Slovenian (slovenščina) */
 $specialPageAliases['sl'] = array(
 	'Index' => array( 'Kazalo' ),
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬) */
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬) */
 $specialPageAliases['sr-ec'] = array(
 	'Index' => array( 'Индекс', 'Попис' ),
 );
@@ -173,7 +178,7 @@ $specialPageAliases['tr'] = array(
 	'Index' => array( 'Dizin', 'Endeks' ),
 );
 
-/** Simplified Chinese (‪中文(简体)‬) */
+/** Simplified Chinese (‪中文（简体）‬) */
 $specialPageAliases['zh-hans'] = array(
 	'Index' => array( '索引' ),
 );
