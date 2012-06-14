@@ -124,7 +124,7 @@ $messages['arc'] = array(
 	'index-submit' => 'ܫܕܪ',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Cekli829
  * @author Vago
  * @author Wertuose
@@ -164,7 +164,7 @@ $messages['be-tarask'] = array(
 	'index-details-explain' => 'Запісы са стрэлкамі зьяўляюцца індэкснымі, націсьніце на стрэлку для паказу ўсіх старонак праіндэксаваных пад гэтай назвай.',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
@@ -186,7 +186,7 @@ $messages['bn'] = array(
 	'index-no-results' => 'অনুসন্ধানটি কোনো ফলাফল ছাড়াই শেষ হয়েছে',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
@@ -218,7 +218,7 @@ Merkit an nebeud arouezennoù kentañ ha pouezit war ar bouton klask evit kavout
 Klikit war ar bir evit gwelet an holl bajennoù menegeret dindan an titl-se.',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -248,7 +248,7 @@ Upišite prvih par znakova i pritisnite dugme Pošalji za traženje naslova stra
 Kliknite na strelicu za prikaz svih stranica indeksiranih pod tim naslovom.',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author Paucabot
  */
 $messages['ca'] = array(
@@ -265,13 +265,13 @@ $messages['ce'] = array(
 	'index-no-results' => 'Лахаро хилам ца белла',
 );
 
-/** Sorani (کوردی) */
+/** Sorani Kurdish (کوردی) */
 $messages['ckb'] = array(
 	'index-search' => 'گەڕان:',
 	'index-submit' => 'ناردن',
 );
 
-/** Czech (Česky) */
+/** Czech (česky) */
 $messages['cs'] = array(
 	'index-search' => 'Hledat:',
 	'index-submit' => 'Odeslat',
@@ -389,7 +389,7 @@ $messages['eo'] = array(
 	'index-hide-detail' => 'Kaŝi la liston de paĝoj',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Crazymadlover
  * @author Translationista
  */
@@ -423,7 +423,7 @@ Escribe los primeros caracteres y haga click en "enviar" para buscar títulos de
 Haz clic sobre la flecha para mostrar todas las  páginas indizadas bajo ese título.',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author Kobazulo
  */
 $messages['eu'] = array(
@@ -432,7 +432,7 @@ $messages['eu'] = array(
 	'index-submit' => 'Bidali',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Cimon Avaro
  * @author Crt
  * @author ZeiP
@@ -466,7 +466,7 @@ Kirjoita pari ensimmäistä kirjainta ja napsauta lähetä-nappia hakeaksesi siv
 Napsauta nuolta näyttääksesi kaikki sivut, jotka on indeksoitu otsikon alle.',
 );
 
-/** French (Français)
+/** French (français)
  * @author Crochet.david
  * @author IAlex
  * @author Verdy p
@@ -497,7 +497,7 @@ Tapez les premiers caractères et pressez sur le bouton de soumission pour cherc
 	'index-details-explain' => "Les entrées avec des flèches sont des entrées d'index, cliquez sur la flèche pour voir toutes les pages indexées sous ce titre.",
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author Cedric31
  * @author ChrisPtDe
  */
@@ -650,7 +650,7 @@ Zapodaj najprjedy někotre znamješka a klikń na tłóčatko {{int:index-submit
 	'index-details-explain' => 'Zapiski z šipkami su indeksowe zapiski, klikń na šipk, zo by wšě strony pokazał, kotrež su pod tym titulom indikowane.',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Glanthor Reviol
  */
 $messages['hu'] = array(
@@ -682,7 +682,7 @@ Kérlek távolítsd el a(z) „$1” címet az <nowiki>{{#index:}}</nowiki>-ből
 Kattints a nyílra minden azon a címen indexelt lap megjelenítéséhez.',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -759,7 +759,7 @@ $messages['ilo'] = array(
 	'index-search' => 'Biroken:',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Civvì
  * @author Darth Kule
  */
@@ -824,7 +824,7 @@ $messages['kk-cyrl'] = array(
 	'index-search' => 'Іздеу:',
 );
 
-/** Kalaallisut (Kalaallisut)
+/** Kalaallisut (kalaallisut)
  * @author Qaqqalik
  */
 $messages['kl'] = array(
@@ -906,7 +906,7 @@ Tippt déi éischt Buchstawen an dréckt op de {{int:index-submit ("Schécken")}
 Klickt op de Feil fir all Säiten ze gesinn déi ënner deem Titel indexéiert sinn.",
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -938,7 +938,7 @@ $2
 Кликнете на стрелката за да ги видите сите страници индексирани под тој наслов.',
 );
 
-/** Mongolian (Монгол)
+/** Mongolian (монгол)
  * @author Chinneeb
  */
 $messages['mn'] = array(
@@ -1018,7 +1018,7 @@ Voer de eerste paar letters in en druk op de verzendknop om te zoeken naar pagin
 Klik op de pijl om alle onder die paginaam geïndexeerde pagina's weer te geven.",
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Nghtwlkr
  */
 $messages['nn'] = array(
@@ -1026,7 +1026,7 @@ $messages['nn'] = array(
 	'index-submit' => 'Send',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
@@ -1062,7 +1062,7 @@ $messages['pdc'] = array(
 	'index-search' => 'Guck uff:',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Sp5uhe
  */
 $messages['pl'] = array(
@@ -1139,7 +1139,7 @@ $messages['ps'] = array(
 	'index-hide-detail' => 'د مخونو لړليک پټول',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  */
 $messages['pt'] = array(
@@ -1171,7 +1171,7 @@ Introduza alguns caracteres e clique o botão "Submeter" para procurar páginas 
 Clique uma seta para ver todas as páginas indexadas sob o respectivo título.',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Giro720
  * @author Luckas Blade
  */
@@ -1204,7 +1204,7 @@ Introduza alguns caracteres e clique o botão "Submeter" para procurar páginas 
 Clique uma seta para ver todas as páginas indexadas sob o respectivo título.',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Firilacroco
  * @author KlaudiuMihaila
  * @author Stelistcristi
@@ -1223,7 +1223,7 @@ $messages['ro'] = array(
 	'index-no-results' => 'Căutarea nu a returnat rezultate',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Ferrer
  * @author Александр Сигачёв
  */
@@ -1253,7 +1253,7 @@ $2
 	'index-details-explain' => 'Элементы со стрелками являются индексными записями, нажмите на стрелку, чтобы показать все страницы, проиндексированные в соответствии с этим названием.',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
@@ -1290,7 +1290,7 @@ $messages['so'] = array(
 	'index-search' => 'Raadi:',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Жељко Тодоровић
  * @author Михајло Анђелковић
  */
@@ -1304,7 +1304,7 @@ $messages['sr-ec'] = array(
 	'index-no-results' => 'Претрага није дала никакве резултате',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬) */
+/** Serbian (Latin script) (‪srpski (latinica)‬) */
 $messages['sr-el'] = array(
 	'indexfunc-badtitle' => 'Neispravan naslov: "$1"',
 	'index-search' => 'Pretraga:',
@@ -1322,7 +1322,7 @@ $messages['stq'] = array(
 	'index-search' => 'Säik',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Rotsee
  */
 $messages['sv'] = array(
@@ -1367,7 +1367,7 @@ $messages['te'] = array(
 	'index-no-results' => 'ఈ అన్వేషణకి ఫలితాలేమీ లేవు',
 );
 
-/** Tetum (Tetun)
+/** Tetum (tetun)
  * @author MF-Warburg
  */
 $messages['tet'] = array(
@@ -1432,7 +1432,7 @@ $messages['ug-latn'] = array(
 	'index-search' => 'Izdash:',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Prima klasy4na
  * @author Тест
  */
@@ -1476,7 +1476,7 @@ $messages['yi'] = array(
 	'index-search' => 'זוכן:',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Bencmq
  * @author Hydra
  */
@@ -1491,7 +1491,7 @@ $messages['zh-hans'] = array(
 	'index-no-results' => '无任何搜索结果',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Liangent
  * @author Mark85296341
  * @author Oapbtommy
