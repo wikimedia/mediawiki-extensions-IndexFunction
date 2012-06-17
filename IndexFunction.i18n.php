@@ -789,11 +789,12 @@ Fare clic sulla freccia per visualizzare tutte le pagine indicizzate sotto quel 
 /** Japanese (日本語)
  * @author Fryed-peach
  * @author Hosiryuhosi
+ * @author Shirayuki
  * @author 青子守歌
  */
 $messages['ja'] = array(
 	'indexfunc-desc' => '自動的なリダイレクトや曖昧さ回避ページを作成するためのパーサー関数',
-	'indexfunc-badtitle' => '不正なページ名:「$1」',
+	'indexfunc-badtitle' => '無効なページ名：「$1」',
 	'indexfunc-editwarning' => '警告: このページ名は以下の{{PLURAL:$2|ページ}}用の索引名となっています。
 $1
 あなたが作成しようとしているページが既に別の名前で存在していないことを確認してください。
