@@ -33,6 +33,11 @@ $specialPageAliases['arz'] = array(
 	'Index' => array( 'فهرس' ),
 );
 
+/** Assamese (অসমীয়া) */
+$specialPageAliases['as'] = array(
+	'Index' => array( 'সূচী' ),
+);
+
 /** Breton (brezhoneg) */
 $specialPageAliases['br'] = array(
 	'Index' => array( 'Meneger' ),
@@ -73,7 +78,7 @@ $specialPageAliases['gag'] = array(
 	'Index' => array( 'İndeks' ),
 );
 
-/** Galician (Galego) */
+/** Galician (galego) */
 $specialPageAliases['gl'] = array(
 	'Index' => array( 'Índice' ),
 );
