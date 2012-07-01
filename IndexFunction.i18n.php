@@ -76,7 +76,7 @@ $messages['af'] = array(
 	'index-submit' => 'OK',
 );
 
-/** Aragonese (Aragonés)
+/** Aragonese (aragonés)
  * @author Juanpabl
  */
 $messages['an'] = array(
@@ -136,7 +136,7 @@ $messages['az'] = array(
 	'index-hide-detail' => 'Səhifələrin siyahısını gizlə',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -333,7 +333,7 @@ Geben Sie die ersten Zeichen ein und drücken Sie die {{int:index-submit}}-Schal
 Klicken Sie auf den Pfeil, um alle unter diesem Titel indizierten Seiten anzuzeigen.',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -515,7 +515,7 @@ $messages['frp'] = array(
 	'index-no-results' => 'La rechèrche at retornâ gins de rèsultat',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -623,7 +623,7 @@ $2
 לחצו על החץ כדי להציג את כל הדפים תחת הכותרת.',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
