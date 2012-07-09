@@ -178,6 +178,11 @@ $specialPageAliases['sr-ec'] = array(
 	'Index' => array( 'Индекс', 'Попис' ),
 );
 
+/** Tagalog (Tagalog) */
+$specialPageAliases['tl'] = array(
+	'Index' => array( 'Talatuntunan' ),
+);
+
 /** Turkish (Türkçe) */
 $specialPageAliases['tr'] = array(
 	'Index' => array( 'Dizin', 'Endeks' ),
