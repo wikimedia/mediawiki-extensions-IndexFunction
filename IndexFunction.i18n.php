@@ -333,6 +333,14 @@ Geben Sie die ersten Zeichen ein und drücken Sie die {{int:index-submit}}-Schal
 Klicken Sie auf den Pfeil, um alle unter diesem Titel indizierten Seiten anzuzeigen.',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'index-search' => 'Cı geyre',
+	'index-submit' => 'Bırşê',
+);
+
 /** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
