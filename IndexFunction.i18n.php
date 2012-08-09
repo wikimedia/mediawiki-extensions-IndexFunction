@@ -440,6 +440,16 @@ $messages['eu'] = array(
 	'index-submit' => 'Bidali',
 );
 
+/** Persian (فارسی)
+ * @author Mjbmr
+ */
+$messages['fa'] = array(
+	'indexfunc-badtitle' => 'عنوان نامعتبر: «$1»',
+	'index-legend' => 'جستجوی فهرست',
+	'index-search' => 'جستجو:',
+	'index-submit' => 'ثبت',
+);
+
 /** Finnish (suomi)
  * @author Cimon Avaro
  * @author Crt
@@ -1260,6 +1270,14 @@ $2
 
 Введите несколько первых символов и нажмите кнопку отправки запроса, чтобы осуществить поиск по заголовкам страниц и индексным записям, начинающимся с заданной строки',
 	'index-details-explain' => 'Элементы со стрелками являются индексными записями, нажмите на стрелку, чтобы показать все страницы, проиндексированные в соответствии с этим названием.',
+);
+
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'index-search' => 'සොයන්න:',
+	'index-submit' => 'යොමන්න',
 );
 
 /** Slovak (slovenčina)
