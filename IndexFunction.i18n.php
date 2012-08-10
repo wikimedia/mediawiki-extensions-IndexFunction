@@ -836,6 +836,17 @@ $2
 	'index-details-explain' => '矢印の付いた項目は索引項目で、矢印をクリックするとその名前で索引に載っているすべてのページを表示します。',
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'indexfunc-badtitle' => 'არასწორი სათაური: "$1"',
+	'indexfunc-index-exists' => 'გვერდი „$1“ უკვე არსებობს',
+	'index' => 'ინდექსის ძიება',
+	'index-search' => 'ძიება:',
+	'index-submit' => 'მიღება',
+);
+
 /** Kazakh (Cyrillic script) (‪қазақша (кирил)‬)
  * @author GaiJin
  */
