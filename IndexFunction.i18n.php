@@ -84,6 +84,7 @@ $messages['an'] = array(
 );
 
 /** Arabic (العربية)
+ * @author Meno25
  * @author OsamaK
  */
 $messages['ar'] = array(
@@ -102,7 +103,7 @@ $2
 	'index' => 'البحث في الفهرس',
 	'index-legend' => 'ابحث في الفهرس',
 	'index-search' => 'ابحث:',
-	'index-submit' => 'أرسل',
+	'index-submit' => 'إرسال',
 	'index-disambig-start' => "'''$1''' يمكن أن يشير إلى صفحات عديدة:",
 	'index-emptylist' => 'لا توجد أي صفحات مربوطة ب"$1"',
 	'index-expand-detail' => 'أظهر الصفحات المفهرسة تحت هذا العنوان',
