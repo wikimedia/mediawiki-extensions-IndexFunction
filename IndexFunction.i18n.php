@@ -1393,6 +1393,19 @@ Skriv några inledande tecken och klicka på {{int:index-submit ("<index-submit>
 Klicka på pilen för att se hela innehållsförteckningen.',
 );
 
+/** Tamil (தமிழ்)
+ * @author Karthi.dr
+ */
+$messages['ta'] = array(
+	'indexfunc-badtitle' => 'செல்லாத தலைப்பு: "$1"',
+	'indexfunc-index-exists' => '$1 பக்கம் ஏற்கனவே உள்ளது.',
+	'index-legend' => 'உள்ளடக்கத்தைத் தேடு',
+	'index-search' => 'தேடு',
+	'index-submit' => 'சமர்ப்பி',
+	'index-emptylist' => '"$1" உடன் தொடர்புடைய ஒரு பக்கமும் இல்லை.',
+	'index-no-results' => 'இந்த தேடல் எந்த முடிவையும் தரவில்லை.',
+);
+
 /** Telugu (తెలుగు)
  * @author Kiranmayee
  * @author Veeven
