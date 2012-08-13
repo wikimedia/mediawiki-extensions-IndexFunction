@@ -432,6 +432,13 @@ Escribe los primeros caracteres y haga click en "enviar" para buscar títulos de
 Haz clic sobre la flecha para mostrar todas las  páginas indizadas bajo ese título.',
 );
 
+/** Estonian (eesti)
+ * @author Avjoska
+ */
+$messages['et'] = array(
+	'indexfunc-index-exists' => 'Lehekülg "$1" on juba olemas',
+);
+
 /** Basque (euskara)
  * @author Kobazulo
  */
