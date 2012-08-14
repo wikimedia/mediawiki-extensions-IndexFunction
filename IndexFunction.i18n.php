@@ -1261,6 +1261,14 @@ $messages['ro'] = array(
 	'index-no-results' => 'Căutarea nu a returnat rezultate',
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'index-search' => 'Cirche',
+	'index-submit' => 'Conferme',
+);
+
 /** Russian (русский)
  * @author Ferrer
  * @author Александр Сигачёв
@@ -1402,6 +1410,7 @@ Klicka på pilen för att se hela innehållsförteckningen.',
 
 /** Tamil (தமிழ்)
  * @author Karthi.dr
+ * @author மதனாஹரன்
  */
 $messages['ta'] = array(
 	'indexfunc-badtitle' => 'செல்லாத தலைப்பு: "$1"',
@@ -1410,6 +1419,7 @@ $messages['ta'] = array(
 	'index-search' => 'தேடு',
 	'index-submit' => 'சமர்ப்பி',
 	'index-emptylist' => '"$1" உடன் தொடர்புடைய ஒரு பக்கமும் இல்லை.',
+	'index-hide-detail' => 'பக்கங்களின் பட்டியலை மறைக்கவும்',
 	'index-no-results' => 'இந்த தேடல் எந்த முடிவையும் தரவில்லை.',
 );
 
