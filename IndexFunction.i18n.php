@@ -541,6 +541,13 @@ $messages['frp'] = array(
 	'index-no-results' => 'La rechèrche at retornâ gins de rèsultat',
 );
 
+/** Irish (Gaeilge)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ga'] = array(
+	'index-search' => 'Cuardaigh:',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
