@@ -1522,6 +1522,13 @@ $messages['uk'] = array(
 	'index-no-results' => 'Пошук не дав результатів',
 );
 
+/** Uzbek (oʻzbekcha)
+ * @author CoderSI
+ */
+$messages['uz'] = array(
+	'index-search' => 'Qidiruv',
+);
+
 /** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
