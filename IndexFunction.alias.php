@@ -143,7 +143,7 @@ $specialPageAliases['mr'] = array(
 	'Index' => array( 'सूची' ),
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬) */
+/** Norwegian Bokmål (norsk (bokmål)‎) */
 $specialPageAliases['nb'] = array(
 	'Index' => array( 'Indeks' ),
 );
@@ -173,7 +173,7 @@ $specialPageAliases['sl'] = array(
 	'Index' => array( 'Kazalo' ),
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬) */
+/** Serbian (Cyrillic script) (српски (ћирилица)‎) */
 $specialPageAliases['sr-ec'] = array(
 	'Index' => array( 'Индекс', 'Попис' ),
 );
@@ -188,7 +188,7 @@ $specialPageAliases['tr'] = array(
 	'Index' => array( 'Dizin', 'Endeks' ),
 );
 
-/** Simplified Chinese (‪中文（简体）‬) */
+/** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'Index' => array( '索引' ),
 );
