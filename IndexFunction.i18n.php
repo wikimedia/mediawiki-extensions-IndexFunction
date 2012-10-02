@@ -137,7 +137,7 @@ $messages['az'] = array(
 	'index-hide-detail' => 'Səhifələrin siyahısını gizlə',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -313,7 +313,7 @@ Gib die ersten Zeichen ein und drücke die {{int:index-submit}}-Schaltfläche, u
 Klicke auf den Pfeil, um alle unter diesem Titel indizierten Seiten anzuzeigen.',
 );
 
-/** German (formal address) (‪Deutsch (Sie-Form)‬)
+/** German (formal address) (Deutsch (Sie-Form)‎)
  * @author Imre
  * @author The Evil IP address
  */
@@ -617,7 +617,7 @@ Tipp di erschte paar Buehcstabe yy un druck dr „Abschicke“-Chnopf go Sytetit
 Druck uf dr Boge go alli Syte aazeige, wu unter däm Titel ufglischtet sin.',
 );
 
-/** Hausa (هَوُسَ) */
+/** Hausa (Hausa) */
 $messages['ha'] = array(
 	'index-search' => 'Nema',
 );
@@ -862,7 +862,7 @@ $messages['ka'] = array(
 	'index-submit' => 'მიღება',
 );
 
-/** Kazakh (Cyrillic script) (‪қазақша (кирил)‬)
+/** Kazakh (Cyrillic script) (қазақша (кирил)‎)
  * @author GaiJin
  */
 $messages['kk-cyrl'] = array(
@@ -912,7 +912,7 @@ Donn de eezte pa Bochshtave udder Zeijsche tippe, un donn dann dä Knopp „{{in
 	'index-details-explain' => 'Endrääsch met piele en för för automattesche Ömleijdunge un automattesche „Watt ėßß datt?“-Sigge. Donn op dä Piel klecke, öm all di automattesche Ömleijdunge un automattesche „Watt ėßß datt?“-Sigge jezeijsch ze krijje, di dä Tittel han.',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -1000,7 +1000,7 @@ $messages['ms'] = array(
 	'index-submit' => 'Serahkan',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Nghtwlkr
  * @author Simny
  */
@@ -1063,7 +1063,7 @@ Voer de eerste paar letters in en druk op de verzendknop om te zoeken naar pagin
 Klik op de pijl om alle onder die paginaam geïndexeerde pagina's weer te geven.",
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Nghtwlkr
  */
 $messages['nn'] = array(
@@ -1351,7 +1351,7 @@ $messages['so'] = array(
 	'index-search' => 'Raadi:',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Жељко Тодоровић
  * @author Михајло Анђелковић
  */
@@ -1365,7 +1365,7 @@ $messages['sr-ec'] = array(
 	'index-no-results' => 'Претрага није дала никакве резултате',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬) */
+/** Serbian (Latin script) (srpski (latinica)‎) */
 $messages['sr-el'] = array(
 	'indexfunc-badtitle' => 'Neispravan naslov: "$1"',
 	'index-search' => 'Pretraga:',
@@ -1559,7 +1559,7 @@ $messages['yi'] = array(
 	'index-search' => 'זוכן:',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Bencmq
  * @author Hydra
  */
@@ -1574,7 +1574,7 @@ $messages['zh-hans'] = array(
 	'index-no-results' => '无任何搜索结果',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Liangent
  * @author Mark85296341
  * @author Oapbtommy
