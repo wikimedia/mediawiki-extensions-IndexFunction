@@ -33,7 +33,7 @@ $specialPageAliases['arz'] = array(
 	'Index' => array( 'فهرس' ),
 );
 
-/** Assamese (অসমীয়া) */
+/** Assamese (অসমীয়া) */
 $specialPageAliases['as'] = array(
 	'Index' => array( 'সূচী' ),
 );
@@ -143,7 +143,7 @@ $specialPageAliases['mr'] = array(
 	'Index' => array( 'सूची' ),
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎) */
+/** Norwegian Bokmål (norsk bokmål) */
 $specialPageAliases['nb'] = array(
 	'Index' => array( 'Indeks' ),
 );

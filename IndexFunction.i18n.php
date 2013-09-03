@@ -827,7 +827,7 @@ Fare clic sulla freccia per visualizzare tutte le pagine indicizzate sotto quel 
  */
 $messages['ja'] = array(
 	'indexfunc-desc' => '自動的なリダイレクトや曖昧さ回避ページを作成するためのパーサー関数',
-	'indexfunc-badtitle' => '無効なページ名：「$1」',
+	'indexfunc-badtitle' => '無効なページ名:「$1」',
 	'indexfunc-editwarning' => '警告: このページ名は以下の{{PLURAL:$2|ページ}}用の索引名となっています。
 $1
 あなたが作成しようとしているページが既に別の名前で存在していないことを確認してください。
@@ -1252,17 +1252,18 @@ Clique uma seta para ver todas as páginas indexadas sob o respectivo título.',
 /** Romanian (română)
  * @author Firilacroco
  * @author KlaudiuMihaila
+ * @author Minisarm
  * @author Stelistcristi
  */
 $messages['ro'] = array(
-	'indexfunc-badtitle' => 'Titlu invalid: "$1"',
-	'indexfunc-index-exists' => 'Pagina "$1" există deja',
+	'indexfunc-badtitle' => 'Titlu invalid: „$1”',
+	'indexfunc-index-exists' => 'Pagina „$1” există deja',
 	'index' => 'Indexul de căutare',
 	'index-legend' => 'Caută index',
 	'index-search' => 'Căutare:',
 	'index-submit' => 'Trimitere',
 	'index-disambig-start' => "'''$1''' se poate referi la mai multe pagini:",
-	'index-emptylist' => 'Nu există pagini asociate cu "$1"',
+	'index-emptylist' => 'Nu există pagini asociate cu „$1”',
 	'index-expand-detail' => 'Arată paginile indexate sub acest titlu',
 	'index-hide-detail' => 'Ascunde lista paginilor',
 	'index-no-results' => 'Căutarea nu a returnat rezultate',
@@ -1272,8 +1273,13 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'indexfunc-badtitle' => 'Titole invalide: "$1"',
+	'index' => "Ricerche de l'indice",
+	'index-legend' => "Cirche l'indice",
 	'index-search' => 'Cirche',
 	'index-submit' => 'Conferme',
+	'index-hide-detail' => "Scunne l'elenghe de le pàggene",
+	'index-no-results' => "'A ricerche nò dèje resultate",
 );
 
 /** Russian (русский)
@@ -1385,6 +1391,7 @@ $messages['stq'] = array(
 
 /** Swedish (svenska)
  * @author Rotsee
+ * @author WikiPhoenix
  */
 $messages['sv'] = array(
 	'indexfunc-desc' => 'Parser-funktion för att skapa automatiska omdirigeringar och förgreningssidor',
@@ -1399,7 +1406,7 @@ Om du skapar den här sidan, ta bort den här titeln från <nowiki>{{#index:}}</
 "$1" är en innehållsförteckningstitel för följande {{PLURAL:$3|sida|sidor}}:
 $2
 Ta bort "$1" från <nowiki>{{#index:}}</nowiki> {{PLURAL:$3|sidan|sidorna}} ovan.',
-	'index' => 'Sök',
+	'index' => 'Indexsök',
 	'index-legend' => 'Sök i innehållsförteckningen',
 	'index-search' => 'Sök:',
 	'index-submit' => 'Skicka',
@@ -1509,17 +1516,34 @@ $messages['ug-latn'] = array(
 );
 
 /** Ukrainian (українська)
+ * @author Andriykopanytsia
  * @author Prima klasy4na
  * @author Тест
  */
 $messages['uk'] = array(
 	'indexfunc-desc' => 'Функція парсера для створення автоматичних перенаправлень і сторінок неоднозначностей',
 	'indexfunc-badtitle' => 'Неприпустима назва: "$1"',
+	'indexfunc-editwarning' => 'Попередження. Ця назва є індексною для {{PLURAL:$2|наступної сторінки|наступних сторінок}}:
+$1
+Переконайтеся, що сторінка, яку ви збираєтеся створити, не існує під іншою назвою.
+Якщо ви створюєте цю сторінку, вилучіть назву <nowiki>{{#index:}}</nowiki> {{PLURAL:$2|зазначеної вище сторінці|зазначених вище сторінок}}.',
 	'indexfunc-index-exists' => 'Сторінка "$1" вже існує',
+	'indexfunc-movewarn' => 'Попередження. „$1“ є індексною назвою для {{PLURAL:$3|наступної сторінки|наступних сторінок}}:
+$2
+Будь ласка, вилучіть „$1“ <nowiki>{{#index:}}</nowiki> {{PLURAL:$2|зазначеної вище сторінці|зазначених вище сторінок}}.',
+	'index' => 'Пошук у індексах',
+	'index-legend' => 'Пошук за індексом',
 	'index-search' => 'Пошук:',
 	'index-submit' => 'Відправити',
+	'index-disambig-start' => '"\'$1"\' може відноситися до декількох сторінок:',
+	'index-emptylist' => 'Нема сторінок, пов\'язаних з "$1"',
+	'index-expand-detail' => 'Відображення сторінок проіндексовані під такою назвою',
 	'index-hide-detail' => 'Сховати список сторінок',
 	'index-no-results' => 'Пошук не дав результатів',
+	'index-search-explain' => 'Ця сторінка здійснює префіксний пошук.
+
+Введіть кілька перших символів і натисніть кнопку відправки запиту, щоб здійснити пошук по заголовках сторінок і індексним записів, що починаються з вказаного рядка',
+	'index-details-explain' => 'Елементи зі стрілками є індексними записами, натисніть стрілку, щоб показати всі сторінки, проіндексовані згідно з цією назвою.',
 );
 
 /** Uzbek (oʻzbekcha)
@@ -1590,4 +1614,3 @@ $messages['zh-hant'] = array(
 	'index-hide-detail' => '隱藏頁面清單',
 	'index-no-results' => '無任何搜尋結果',
 );
-
