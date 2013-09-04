@@ -46,14 +46,42 @@ Click the arrow to show all pages indexed under that title.',
  * @author Fryed-peach
  * @author Purodha
  * @author Raymond
+ * @author Shirayuki
+ * @author Umherirrender
  */
 $messages['qqq'] = array(
 	'indexfunc-desc' => '{{desc}}',
-	'indexfunc-badtitle' => '{{Identical|Invalid title}}',
+	'indexfunc-badtitle' => 'Used as error message. Parameters:
+* $1 - page title
+See also:
+* {{msg-mw|Indexfunc-index-exists}}
+{{Identical|Invalid title}}',
+	'indexfunc-editwarning' => 'Used as warning when editing. Parameters:
+* $1 - list of target pages
+* $2 - number of target pages
+See also:
+* {{msg-mw|Indexfunc-movewarn}}',
+	'indexfunc-index-exists' => 'Used as error message. Parameters:
+* $1 - page title
+See also:
+* {{msg-mw|Indexfunc-badtitle}}',
+	'indexfunc-movewarn' => 'Used as warning when moving. Parameters:
+* $1 - page title
+* $2 - list of target pages
+* $3 - number of target pages
+See also:
+* {{msg-mw|Indexfunc-editwarning}}',
 	'index' => 'This is either the name of the parser function, to be used inside the wiki code, or not used, if I got it right. --[[User:Purodha|Purodha Blissenbach]] 00:13, 15 July 2009 (UTC)',
 	'index-legend' => 'Used in [[Special:Index]].',
-	'index-search' => '{{Identical|Search}}',
-	'index-submit' => '{{Identical|Submit}}',
+	'index-search' => 'Used as label for the "Search text" input box.
+{{Identical|Search}}',
+	'index-submit' => 'Used as label for the Submit button.
+{{Identical|Submit}}',
+	'index-disambig-start' => 'Parameters:
+* $1 - page title',
+	'index-exclude-categories' => '{{notranslate}}',
+	'index-emptylist' => 'Used if there are no pages to show. Parameters:
+* $1 - page title',
 	'index-search-explain' => 'If your language permits, you can replace <code>submit</code> with <code>{<nowiki />{int:index-submit}}</code> for the button label.',
 );
 
@@ -123,6 +151,37 @@ $messages['arc'] = array(
 	'indexfunc-badtitle' => 'ܟܘܢܝܐ ܠܐ ܬܪܝܨܐ: "$1"',
 	'index-search' => 'ܒܨܝ:',
 	'index-submit' => 'ܫܕܪ',
+);
+
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'indexfunc-desc' => 'Función analítica pa crear redireiciones y páxines de dixebra automátiques',
+	'indexfunc-badtitle' => 'Títulu inválidu: "$1"',
+	'indexfunc-editwarning' => 'Avisu:
+Esti títulu ye un índiz de {{PLURAL:$2|la siguiente páxina|les siguientes páxines}}:
+$1
+Asegúrese de que la páxina que ta a piques de crear nun esiste yá con un títulu diferente.
+Si crea esta páxina, desanicie esti títulu del <nowiki>{{#index:}}</nowiki> de {{PLURAL:$2|la páxina|les páxines}} de más arriba.',
+	'indexfunc-index-exists' => 'La páxina "$1" yá esiste',
+	'indexfunc-movewarn' => 'Avisu: "$1" ye un títulu d\'índiz pa {{PLURAL:$3|la siguiente páxina|les siguientes páxines}}:
+$2
+Por favor, desanicie "$1" del <nowiki>{{#index:}}</nowiki> de {{PLURAL:$3|la páxina|les páxines}} de más arriba.',
+	'index' => 'Gueta nel índiz',
+	'index-legend' => 'Guetar nel índiz',
+	'index-search' => 'Guetar:',
+	'index-submit' => 'Unviar',
+	'index-disambig-start' => "'''$1''' pue referise a varies páxines:",
+	'index-emptylist' => 'Nun hai páxines asociaes con "$1"',
+	'index-expand-detail' => 'Ver les páxines indexaes baxo esti títulu',
+	'index-hide-detail' => 'Tapecer la llista de páxines',
+	'index-no-results' => 'La gueta nun devolvió resultaos',
+	'index-search-explain' => 'Esta páxina usa una gueta por prefixos.  
+
+Escriba los primeros caráuteres y calque nel botón "Unviar" pa buscar títulos de páxines y entraes del índiz que principien cola cadena de gueta',
+	'index-details-explain' => 'Les entraes con fleches son entraes del índiz.
+Calque na flecha pa ver toles páxines indexaes con esi títulu.',
 );
 
 /** Azerbaijani (azərbaycanca)
@@ -883,6 +942,38 @@ $messages['kn'] = array(
 	'index-search' => 'ಹುಡುಕು;',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'indexfunc-desc' => '자동으로 넘겨주기와 동음이의 문서를 만드는 파서 함수',
+	'indexfunc-badtitle' => '잘못된 제목: "$1"',
+	'indexfunc-editwarning' => '경고:
+이 제목은 다음 {{PLURAL:$2|문서}}에 대한 색인 제목입니다:
+$1
+만들려고 하는 문서가 이미 다른 제목으로 존재하지 않는 것을 확인하세요.
+이 문서를 만드면, {{PLURAL:$3|문서}} 위에 <nowiki>{{#index:}}</nowiki>에서 이 제목을 제거하세요.', # Fuzzy
+	'indexfunc-index-exists' => '"$1" 문서가 이미 존재합니다',
+	'indexfunc-movewarn' => '경고:
+"$1" 문서는 다음 {{PLURAL:$3|문서}}에 대한 색인 제목입니다:
+$2
+{{PLURAL:$3|문서}} 위에 <nowiki>{{#index:}}</nowiki>에서 "$1" 문서를 제거하세요.',
+	'index' => '색인 검색',
+	'index-legend' => '색인 검색',
+	'index-search' => '검색:',
+	'index-submit' => '제출',
+	'index-disambig-start' => "'''$1''' 문서는 여러 문서를 참고할 수 있습니다:",
+	'index-emptylist' => '"$1" 문서와 관련된 문서가 없습니다',
+	'index-expand-detail' => '이 제목에 따라 색인된 문서 보기',
+	'index-hide-detail' => '문서의 목록 숨기기',
+	'index-no-results' => '반환된 검색 결과가 없습니다',
+	'index-search-explain' => '이 문서는 접두어 검색을 사용합니다.
+
+검색 문자열로 시작하는 문서 제목과 색인 항목에 대해 검색하려면 처음 몇 글자를 입력하고 제출을 누르세요.',
+	'index-details-explain' => '화살표로 된 항목은 색인 항목입니다.
+제목에 따라 색인된 모든 문서를 보려면 화살표를 클릭하세요.',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
@@ -1218,6 +1309,8 @@ Clique uma seta para ver todas as páginas indexadas sob o respectivo título.',
 
 /** Brazilian Portuguese (português do Brasil)
  * @author Giro720
+ * @author Leosls
+ * @author Luckas
  * @author Luckas Blade
  */
 $messages['pt-br'] = array(
@@ -1235,7 +1328,7 @@ $2
 Por favor, remova "$1" da função <nowiki>{{#index:}}</nowiki> {{PLURAL:$1|nesta página|nestas páginas}}.',
 	'index' => 'Índice',
 	'index-legend' => 'Pesquisar o índice de títulos',
-	'index-search' => 'Pesquisar',
+	'index-search' => 'Pesquisar:',
 	'index-submit' => 'Enviar',
 	'index-disambig-start' => "'''$1''' pode referir-se a várias páginas:",
 	'index-emptylist' => 'Não há páginas relacionadas com "$1"',
@@ -1391,6 +1484,7 @@ $messages['stq'] = array(
 
 /** Swedish (svenska)
  * @author Rotsee
+ * @author Skalman
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
@@ -1399,13 +1493,13 @@ $messages['sv'] = array(
 	'indexfunc-editwarning' => 'Varning:
 Den här titeln används som innehållsförteckningstitel för följande {{PLURAL:$2|sida|sidor}}:
 $1
-Försäkra dig om att sida du försöker skapa inte redan finns under en annan titel.
-Om du skapar den här sidan, ta bort den här titeln från <nowiki>{{#index:}}</nowiki> {{PLURAL:$2|sidan|sidorna}} ovan.',
+Försäkra dig om att sidan du försöker skapa inte redan finns under en annan titel.
+Om du skapar den här sidan, ta bort den här titeln från <nowiki>{{#index:}}</nowiki> på {{PLURAL:$2|sidan|sidorna}} ovan.',
 	'indexfunc-index-exists' => 'Sidan "$1" finns redan',
 	'indexfunc-movewarn' => 'Varning:
 "$1" är en innehållsförteckningstitel för följande {{PLURAL:$3|sida|sidor}}:
 $2
-Ta bort "$1" från <nowiki>{{#index:}}</nowiki> {{PLURAL:$3|sidan|sidorna}} ovan.',
+Ta bort "$1" från <nowiki>{{#index:}}</nowiki> på {{PLURAL:$3|sidan|sidorna}} ovan.',
 	'index' => 'Indexsök',
 	'index-legend' => 'Sök i innehållsförteckningen',
 	'index-search' => 'Sök:',
