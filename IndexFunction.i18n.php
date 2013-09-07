@@ -1309,12 +1309,13 @@ Clique uma seta para ver todas as páginas indexadas sob o respectivo título.',
 
 /** Brazilian Portuguese (português do Brasil)
  * @author Giro720
+ * @author Jaideraf
  * @author Leosls
  * @author Luckas
  * @author Luckas Blade
  */
 $messages['pt-br'] = array(
-	'indexfunc-desc' => 'Função do analisador sintáctico para criação automática de páginas de redirecionamento e de desambiguação',
+	'indexfunc-desc' => 'Função do analisador sintático para criação automática de páginas de redirecionamento e de desambiguação',
 	'indexfunc-badtitle' => 'Título inválido: "$1"',
 	'indexfunc-editwarning' => 'Aviso:
 Este título já consta do índice de títulos {{PLURAL:$2|na seguinte página|nas seguintes páginas}}:
