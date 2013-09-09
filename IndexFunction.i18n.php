@@ -952,7 +952,7 @@ $messages['ko'] = array(
 이 제목은 다음 {{PLURAL:$2|문서}}에 대한 색인 제목입니다:
 $1
 만들려고 하는 문서가 이미 다른 제목으로 존재하지 않는 것을 확인하세요.
-이 문서를 만드면, {{PLURAL:$3|문서}} 위에 <nowiki>{{#index:}}</nowiki>에서 이 제목을 제거하세요.', # Fuzzy
+이 문서를 만드면, {{PLURAL:$2|문서}} 위에 <nowiki>{{#index:}}</nowiki>에서 이 제목을 제거하세요.',
 	'indexfunc-index-exists' => '"$1" 문서가 이미 존재합니다',
 	'indexfunc-movewarn' => '경고:
 "$1" 문서는 다음 {{PLURAL:$3|문서}}에 대한 색인 제목입니다:
@@ -1125,6 +1125,7 @@ Klikk på pilen for å vise alle sider registrert under den tittelen.',
 );
 
 /** Dutch (Nederlands)
+ * @author HanV
  * @author Siebrand
  */
 $messages['nl'] = array(
@@ -1151,7 +1152,7 @@ Verwijder "$1" uit de <nowiki>{{#index:}}</nowiki> op de bovenstaande {{PLURAL:$
 
 Voer de eerste paar letters in en druk op de verzendknop om te zoeken naar paginanamen en trefwoorden die beginnen met de opgegeven zoekreeks',
 	'index-details-explain' => "Trefwoorden met pijlen komen uit de index.
-Klik op de pijl om alle onder die paginaam geïndexeerde pagina's weer te geven.",
+Klik op de pijl om alle onder die naam geïndexeerde pagina's weer te geven.",
 );
 
 /** Norwegian Nynorsk (norsk (nynorsk)‎)
