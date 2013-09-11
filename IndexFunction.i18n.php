@@ -459,29 +459,30 @@ $messages['eo'] = array(
 
 /** Spanish (español)
  * @author Crazymadlover
+ * @author Fitoschido
  * @author Translationista
  */
 $messages['es'] = array(
-	'indexfunc-desc' => 'Función analizadora para crear redirecciones y páginas de desambiguación',
-	'indexfunc-badtitle' => 'Título inválido: "$1"',
+	'indexfunc-desc' => 'Función del analizador para crear redirecciones y páginas de desambiguación automáticas',
+	'indexfunc-badtitle' => 'Título no válido: «$1»',
 	'indexfunc-editwarning' => 'Advertencia:
 Este es un título de índice de {{PLURAL:$2|la siguiente página|las sigueintes páginas}}:
 $1
 Asegúrate de que la página que vas a crear no existe actualmente con un título diferente.
 Si creas esta página, elimina este título del <nowiki>{{#index:}}</nowiki> en {{PLURAL:$2|la página mostrada|las páginas mostradas}} a continuación.',
-	'indexfunc-index-exists' => 'La página "$1" ya existe',
+	'indexfunc-index-exists' => 'La página «$1» ya existe',
 	'indexfunc-movewarn' => 'Advertencia:
 "$1" es un título de índice para {{PLURAL:$3|la siguiente página|las siguientes páginas}}:
 $2
 Por favor, elimina "$1" del <nowiki>{{#index:}}</nowiki> en{{PLURAL:$3|la página mostrada|las páginas mostradas}} a continuación.',
 	'index' => 'Índice',
-	'index-legend' => 'Buscar el índice',
+	'index-legend' => 'Buscar en el índice',
 	'index-search' => 'Buscar:',
 	'index-submit' => 'Enviar',
-	'index-disambig-start' => "'''$1''' puede referir a varias páginas:",
-	'index-emptylist' => 'No hay páginas asociadas con "$1"',
-	'index-expand-detail' => 'Mostrar páginas indexadas bajo este título',
-	'index-hide-detail' => 'Esconder el listado de páginas',
+	'index-disambig-start' => "'''$1''' puede referirse a varias páginas:",
+	'index-emptylist' => 'No hay páginas asociadas con «$1»',
+	'index-expand-detail' => 'Mostrar páginas indizadas bajo este título',
+	'index-hide-detail' => 'Ocultar la lista de páginas',
 	'index-no-results' => 'La búsqueda no ha devuelto resultados',
 	'index-search-explain' => 'Esta página utiliza una búsueda por prefijos.
 
