@@ -1013,6 +1013,7 @@ $messages['ku-latn'] = array(
 
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
+ * @author Soued031
  */
 $messages['lb'] = array(
 	'indexfunc-desc' => 'Parser-Fonctioun fir Viruleedungen an Homonymie-Säiten automatesch unzeleeën',
@@ -1020,7 +1021,7 @@ $messages['lb'] = array(
 	'indexfunc-editwarning' => 'Opgepasst:
 Dësen Titel ass en Index-Titel fir dës {{PLURAL:$2|Säit|Säiten}}:
 $1
-Vergewëssert Iech datt déi Säit déi Dir amgaang sidd unzeleeën net schon ënner engem aneren Titel besteet.
+Vergewëssert Iech datt déi Säit déi Dir am Gaang sidd unzeleeën net schonn ënner engem aneren Titel besteet.
 Wann Dir dës Säit uleet, dann huelt dësen Titel vu(n)  <nowiki>{{#index:}}</nowiki> op {{PLURAL:$2|der Säit|de Säiten}} uewendriwwer erof.',
 	'indexfunc-index-exists' => 'D\'Säit "$1" gëtt et schonn',
 	'indexfunc-movewarn' => 'Opgepasst:
