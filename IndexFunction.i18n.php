@@ -1016,7 +1016,7 @@ $messages['ku-latn'] = array(
  * @author Soued031
  */
 $messages['lb'] = array(
-	'indexfunc-desc' => 'Parser-Fonctioun fir Viruleedungen an Homonymie-Säiten automatesch unzeleeën',
+	'indexfunc-desc' => 'Parser-Funktioun fir Viruleedungen an Homonymie-Säiten automatesch unzeleeën',
 	'indexfunc-badtitle' => 'Net valabelen Titel: "$1"',
 	'indexfunc-editwarning' => 'Opgepasst:
 Dësen Titel ass en Index-Titel fir dës {{PLURAL:$2|Säit|Säiten}}:
