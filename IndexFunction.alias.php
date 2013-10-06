@@ -5,6 +5,7 @@
  * @file
  * @ingroup Extensions
  */
+// @codingStandardsIgnoreFile
 
 $specialPageAliases = array();
 
@@ -186,6 +187,11 @@ $specialPageAliases['tl'] = array(
 /** Turkish (Türkçe) */
 $specialPageAliases['tr'] = array(
 	'Index' => array( 'Dizin', 'Endeks' ),
+);
+
+/** vèneto (vèneto) */
+$specialPageAliases['vec'] = array(
+	'Index' => array( 'Indice' ),
 );
 
 /** Simplified Chinese (中文（简体）‎) */

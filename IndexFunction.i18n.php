@@ -1684,6 +1684,7 @@ $messages['yi'] = array(
 /** Simplified Chinese (中文（简体）‎)
  * @author Bencmq
  * @author Hydra
+ * @author Hzy980512
  */
 $messages['zh-hans'] = array(
 	'indexfunc-badtitle' => '无效标题：“$1”',
@@ -1692,6 +1693,7 @@ $messages['zh-hans'] = array(
 	'index-legend' => '搜索索引',
 	'index-search' => '搜索：',
 	'index-submit' => '提交',
+	'index-disambig-start' => "'''$1'''可能指几个页面：",
 	'index-hide-detail' => '隐藏页面列表',
 	'index-no-results' => '无任何搜索结果',
 );
