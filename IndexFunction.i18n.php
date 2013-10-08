@@ -239,7 +239,7 @@ $messages['bn'] = array(
 	'indexfunc-badtitle' => 'অপ্রযোজ্য শিরোনাম: "$1"',
 	'index' => 'নির্ঘণ্ট অনুসন্ধান',
 	'index-legend' => 'নির্ঘণ্টে অনুসন্ধান করুন',
-	'index-search' => 'অনুসন্ধান',
+	'index-search' => 'অনুসন্ধান:',
 	'index-submit' => 'জমা দাও',
 	'index-disambig-start' => "'''$1''' অনেক পাতায় নির্দেশিত হতে পারে:",
 	'index-hide-detail' => 'পাতার তালিকা লুকাও',
@@ -319,25 +319,30 @@ $messages['ca'] = array(
 
 /** Chechen (нохчийн)
  * @author Sasan700
+ * @author Умар
  */
 $messages['ce'] = array(
 	'index-search' => 'Лаха:',
+	'index-submit' => 'ДӀадахьийта',
 	'index-no-results' => 'Лахаро хилам ца белла',
 );
 
-/** Sorani Kurdish (کوردی) */
+/** Sorani Kurdish (کوردی)
+ */
 $messages['ckb'] = array(
 	'index-search' => 'گەڕان:',
 	'index-submit' => 'ناردن',
 );
 
-/** Czech (česky) */
+/** Czech (česky)
+ */
 $messages['cs'] = array(
 	'index-search' => 'Hledat:',
 	'index-submit' => 'Odeslat',
 );
 
 /** German (Deutsch)
+ * @author Geitost
  * @author Imre
  * @author Kghbln
  * @author MF-Warburg
@@ -362,17 +367,18 @@ Bitte entferne „$1” von <nowiki>{{#index:}}</nowiki> auf {{PLURAL:$3|der obi
 	'index-submit' => 'Speichern',
 	'index-disambig-start' => "'''$1''' steht für:",
 	'index-emptylist' => 'Es gibt keine Seiten, die mit „$1“ verbunden sind',
-	'index-expand-detail' => 'Zeige Seiten, die unter diesem Titel indiziert sind',
+	'index-expand-detail' => 'Zeige Seiten, die unter diesem Titel indexiert sind',
 	'index-hide-detail' => 'Seitenliste verstecken',
 	'index-no-results' => 'Die Suche ergab keine Ergebnisse',
 	'index-search-explain' => 'Diese Seite benutzt eine Präfix-Suche.
 
 Gib die ersten Zeichen ein und drücke die {{int:index-submit}}-Schaltfläche, um nach Seitentiteln und Indexeinträgen zu suchen, die mit dem Suchstring beginnen',
 	'index-details-explain' => 'Einträge mit Pfeilen sind Indexeinträge.
-Klicke auf den Pfeil, um alle unter diesem Titel indizierten Seiten anzuzeigen.',
+Klicke auf den Pfeil, um alle unter diesem Titel indexierten Seiten anzuzeigen.',
 );
 
 /** German (formal address) (Deutsch (Sie-Form)‎)
+ * @author Geitost
  * @author Imre
  * @author The Evil IP address
  */
@@ -390,7 +396,7 @@ Bitte entfernen Sie „$1” von <nowiki>{{#index:}}</nowiki> auf {{PLURAL:$3|de
 
 Geben Sie die ersten Zeichen ein und drücken Sie die {{int:index-submit}}-Schaltfläche, um nach Seitentiteln und Indexeinträgen zu suchen, die mit dem Suchstring beginnen',
 	'index-details-explain' => 'Einträge mit Pfeilen sind Indexeinträge.
-Klicken Sie auf den Pfeil, um alle unter diesem Titel indizierten Seiten anzuzeigen.',
+Klicken Sie auf den Pfeil, um alle unter diesem Titel indexierten Seiten anzuzeigen.',
 );
 
 /** Zazaki (Zazaki)
@@ -677,7 +683,8 @@ Tipp di erschte paar Buehcstabe yy un druck dr „Abschicke“-Chnopf go Sytetit
 Druck uf dr Boge go alli Syte aazeige, wu unter däm Titel ufglischtet sin.',
 );
 
-/** Hausa (Hausa) */
+/** Hausa (Hausa)
+ */
 $messages['ha'] = array(
 	'index-search' => 'Nema',
 );
@@ -1048,7 +1055,7 @@ Klickt op de Feil fir all Säiten ze gesinn déi ënner deem Titel indexéiert s
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
-	'indexfunc-desc' => 'Парсерска функција која создава автоматски пренасочувања и страници за појаснување',
+	'indexfunc-desc' => 'Парсерска функција која создава автоматски пренасочувања и појаснителни страници',
 	'indexfunc-badtitle' => 'Погрешен наслов: „$1“',
 	'indexfunc-editwarning' => 'Предупредување:
 Овој наслов е индексен наслов за {{PLURAL:$2|следната страница|следните страници}}:
@@ -1093,7 +1100,7 @@ $messages['ms'] = array(
 	'index-submit' => 'Serahkan',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Nghtwlkr
  * @author Simny
  */
@@ -1157,7 +1164,7 @@ Voer de eerste paar letters in en druk op de verzendknop om te zoeken naar pagin
 Klik op de pijl om alle onder die naam geïndexeerde pagina's weer te geven.",
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  * @author Nghtwlkr
  */
 $messages['nn'] = array(
@@ -1280,9 +1287,10 @@ $messages['ps'] = array(
 
 /** Portuguese (português)
  * @author Hamilton Abreu
+ * @author Luckas
  */
 $messages['pt'] = array(
-	'indexfunc-desc' => "Função do analisador sintáctico ''(parser),'' para criação automática de páginas de redireccionamento e de desambiguação",
+	'indexfunc-desc' => "Função do analisador sintáctico ''(parser),'' para criação automática de páginas de redirecionamento e de desambiguação",
 	'indexfunc-badtitle' => 'Título inválido: "$1"',
 	'indexfunc-editwarning' => 'Aviso:
 Este título já consta do índice de títulos {{PLURAL:$2|na seguinte página|nas seguintes páginas}}:
@@ -1468,7 +1476,8 @@ $messages['sr-ec'] = array(
 	'index-no-results' => 'Претрага није дала никакве резултате',
 );
 
-/** Serbian (Latin script) (srpski (latinica)‎) */
+/** Serbian (Latin script) (srpski (latinica)‎)
+ */
 $messages['sr-el'] = array(
 	'indexfunc-badtitle' => 'Neispravan naslov: "$1"',
 	'index-search' => 'Pretraga:',
@@ -1608,7 +1617,8 @@ $messages['tr'] = array(
 	'index-no-results' => 'Aramada sonuç bulunamadı',
 );
 
-/** Uyghur (Latin script) (Uyghurche) */
+/** Uyghur (Latin script) (Uyghurche)
+ */
 $messages['ug-latn'] = array(
 	'index-search' => 'Izdash:',
 );
