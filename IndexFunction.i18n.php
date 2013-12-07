@@ -334,7 +334,7 @@ $messages['ckb'] = array(
 	'index-submit' => 'ناردن',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  */
 $messages['cs'] = array(
 	'index-search' => 'Hledat:',
