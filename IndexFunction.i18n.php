@@ -153,6 +153,14 @@ $messages['arc'] = array(
 	'index-submit' => 'ܫܕܪ',
 );
 
+/** Assamese (অসমীয়া)
+ * @author Gitartha.bordoloi
+ */
+$messages['as'] = array(
+	'index-search' => 'সন্ধান কৰক:',
+	'index-no-results' => 'অনুসন্ধানটোৰ কোনো ফলাফল নোলাল',
+);
+
 /** Asturian (asturianu)
  * @author Xuacu
  */
