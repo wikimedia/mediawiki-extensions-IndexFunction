@@ -1703,16 +1703,17 @@ $messages['yi'] = array(
  * @author Bencmq
  * @author Hydra
  * @author Hzy980512
+ * @author Liuxinyu970226
  * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
 	'indexfunc-desc' => '用以自动创建重定向和消歧义页面的解析器函数',
 	'indexfunc-badtitle' => '无效标题：“$1”',
 	'indexfunc-editwarning' => '警告：
-此标题是下列页面中的一个索引标题：
+此标题是下列$2个页面中的一个索引标题：
 $1
 请确定您要创建的页面不存在于下列页面的子标题中。
-如果您要创建此页面，在上述页面中的<nowiki>{{#index:}}</nowiki>中移除此标题。', # Fuzzy
+如果您要创建此页面，在上述页面中的<nowiki>{{#index:}}</nowiki>中移除此标题。',
 	'indexfunc-index-exists' => '“$1”页面已存在',
 	'index' => '索引搜索',
 	'index-legend' => '搜索索引',
