@@ -523,13 +523,21 @@ $messages['eu'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Armin1392
  * @author Mjbmr
  */
 $messages['fa'] = array(
 	'indexfunc-badtitle' => 'عنوان نامعتبر: «$1»',
+	'indexfunc-index-exists' => 'صفحهٔ "$1" در حال حاضر وجود دارد',
+	'index' => 'جستجوی شاخص',
 	'index-legend' => 'جستجوی فهرست',
 	'index-search' => 'جستجو:',
 	'index-submit' => 'ثبت',
+	'index-disambig-start' => "ممکن است '''$1''' به چندین صفحه رجوع کند:",
+	'index-emptylist' => 'هیچ صفحه‌ای مرتبط با "$1" نیست',
+	'index-expand-detail' => 'نمایش صفحات فهرست شده زیر این عنوان',
+	'index-hide-detail' => 'پنهان کردن فهرست صفحات',
+	'index-no-results' => 'بی‌نتیجه بودن بازگشت جستجو',
 );
 
 /** Finnish (suomi)
