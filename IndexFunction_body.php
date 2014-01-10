@@ -91,14 +91,11 @@ class IndexFunction {
 
 	// Makes an HTML <ul> list of targets
 	public function makeTargetList() {
-		global $wgUser;
-
-		$sk = $wgUser->getSkin();
 		$targets = $this->getTargets();
 		$list = Xml::openElement( 'ul' );
 
 		foreach ( $targets as $t ) {
-			$link = $sk->link( $t, $t->getPrefixedText(), array(), array(), array( 'known', 'noclasses' ) );
+			$link = Linker::link( $t, $t->getPrefixedText(), array(), array(), array( 'known', 'noclasses' ) );
 			$list .= Xml::tags( 'li', null, $link );
 		}
 

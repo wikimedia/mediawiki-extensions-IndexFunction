@@ -12,12 +12,10 @@ class SpecialIndexPager extends AlphabeticPager {
 	}
 
 	function formatRow( $row ) {
-		$sk = $this->getSkin();
-
 		if ( $row->type == 'page' ) {
 			$title = Title::makeTitle( $row->ns, $row->title );
 			$ret = Xml::openElement( 'tr' );
-			$link = $sk->link( $title, null, array(), array(), array( 'known', 'noclasses' ) );
+			$link = Linker::link( $title, null, array(), array(), array( 'known', 'noclasses' ) );
 			$blankarr = $this->arrow( '' ) . '&#160;';
 			$ret .= Xml::tags( 'td', null, $blankarr );
 			$ret .= Xml::tags( 'td', null, $link );
@@ -29,7 +27,7 @@ class SpecialIndexPager extends AlphabeticPager {
 			$ret = Xml::openElement( 'tr' );
 			$targettitle = Title::makeTitle( $row->ns, $row->title );
 			$title = SpecialPage::getTitleFor( 'Index', $row->title );
-			$link = $sk->link( $title, $targettitle->getPrefixedText(), array( 'class' => 'mw-index' ), array(), array( 'known', 'noclasses' ) );
+			$link = Linker::link( $title, $targettitle->getPrefixedText(), array( 'class' => 'mw-index' ), array(), array( 'known', 'noclasses' ) );
 
 			$jsid = $this->mJSid;
 			$expandTitle = wfMsgHtml( 'index-expand-detail' );
@@ -50,7 +48,7 @@ class SpecialIndexPager extends AlphabeticPager {
 			foreach ( $pages as $page ) {
 				$bits = explode( ':', $page, 2 );
 				$t = Title::makeTitle( $bits[0], $bits[1] );
-				$ln = $sk->link( $t, null, array(), array(), array( 'known', 'noclasses' ) );
+				$ln = Linker::link( $t, null, array(), array(), array( 'known', 'noclasses' ) );
 				$ret .= Xml::tags( 'li', null, $ln );
 			}
 
@@ -356,10 +354,9 @@ class SpecialIndex extends SpecialPage {
 	}
 
 	private function makeContextLine( $title, $cats ) {
-		global $wgUser, $wgSpecialIndexContext;
+		global $wgSpecialIndexContext;
 
-		$sk = $wgUser->getSkin();
-		$link = $sk->link( $title, null, array(), array(), array( 'known', 'noclasses' ) );
+		$link = Linker::link( $title, null, array(), array(), array( 'known', 'noclasses' ) );
 
 		if ( $wgSpecialIndexContext == 'extract' ) {
 			$extracter = new IndexAbstracts();
