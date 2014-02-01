@@ -288,6 +288,7 @@ Klikit war ar bir evit gwelet an holl bajennoù menegeret dindan an titl-se.',
 
 /** Bosnian (bosanski)
  * @author CERminator
+ * @author KWiki
  */
 $messages['bs'] = array(
 	'indexfunc-desc' => 'Parserska funkcija za pravljenje automatskih preusmjerenja i čvor stranica',
@@ -304,7 +305,7 @@ Molimo uklonite "$1" iz <nowiki>{{#index:}}</nowiki> sa {{PLURAL:$3|gornje stran
 	'index-legend' => 'Pretraživanje indeksa',
 	'index-search' => 'Traži:',
 	'index-submit' => 'Pošalji',
-	'index-disambig-start' => "'''$1''' se može odnositi na nekoliko stranica:",
+	'index-disambig-start' => "'''$1''' može se odnositi na nekoliko stranica:",
 	'index-emptylist' => 'Nema stranica povezanih sa "$1"',
 	'index-expand-detail' => 'Prikaži stranice koje su indeksirane pod tim naslovom',
 	'index-hide-detail' => 'Sakrij spisak stranica',
