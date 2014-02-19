@@ -198,3 +198,8 @@ $specialPageAliases['vec'] = array(
 $specialPageAliases['zh-hans'] = array(
 	'Index' => array( '索引' ),
 );
+
+/** Traditional Chinese (中文（繁體）‎) */
+$specialPageAliases['zh-hant'] = array(
+	'Index' => array( '索引' ),
+);
