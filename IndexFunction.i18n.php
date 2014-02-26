@@ -1086,7 +1086,7 @@ Klickt op de Feil fir all Säiten ze gesinn déi ënner deem Titel indexéiert s
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
-	'indexfunc-desc' => 'Парсерска функција која создава автоматски пренасочувања и појаснителни страници',
+	'indexfunc-desc' => 'Расчленувачка функција која создава автоматски пренасочувања и појаснителни страници',
 	'indexfunc-badtitle' => 'Погрешен наслов: „$1“',
 	'indexfunc-editwarning' => 'Предупредување:
 Овој наслов е индексен наслов за {{PLURAL:$2|следната страница|следните страници}}:
