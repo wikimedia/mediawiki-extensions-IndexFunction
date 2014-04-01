@@ -39,6 +39,7 @@ $wgSpecialPageGroups['Index'] = 'pages';
 
 # i18n
 $wgExtensionMessagesFiles['IndexFunctionAlias'] = $dir . 'IndexFunction.alias.php';
+$wgMessagesDirs['IndexFunction'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['IndexFunction'] = $dir . 'IndexFunction.i18n.php';
 $wgExtensionMessagesFiles['IndexFunctionMagic'] = $dir . 'IndexFunction.i18n.magic.php';
 
