@@ -1,14 +1,14 @@
 {
-    "@metadata": {
-        "authors": [
-            "Joetaras"
-        ]
-    },
-    "indexfunc-badtitle": "Titole invalide: \"$1\"",
-    "index": "Ricerche de l'indice",
-    "index-legend": "Cirche l'indice",
-    "index-search": "Cirche",
-    "index-submit": "Conferme",
-    "index-hide-detail": "Scunne l'elenghe de le pàggene",
-    "index-no-results": "'A ricerche nò dèje resultate"
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"indexfunc-badtitle": "Titole invalide: \"$1\"",
+	"index": "Ricerche de l'indice",
+	"index-legend": "Cirche l'indice",
+	"index-search": "Cirche",
+	"index-submit": "Conferme",
+	"index-hide-detail": "Scunne l'elenghe de le pàggene",
+	"index-no-results": "'A ricerche nò dèje resultate"
 }

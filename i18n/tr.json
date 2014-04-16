@@ -1,14 +1,14 @@
 {
-    "@metadata": {
-        "authors": [
-            "Vito Genovese"
-        ]
-    },
-    "indexfunc-desc": "Otomatik yönlendirme ve anlam ayrımı sayfalarını oluşturmak için ayrıştırıcı fonksiyon",
-    "index": "Dizin araması",
-    "index-legend": "Dizini ara",
-    "index-search": "Ara:",
-    "index-submit": "Gönder",
-    "index-hide-detail": "Sayfa listesini gizle",
-    "index-no-results": "Aramada sonuç bulunamadı"
+	"@metadata": {
+		"authors": [
+			"Vito Genovese"
+		]
+	},
+	"indexfunc-desc": "Otomatik yönlendirme ve anlam ayrımı sayfalarını oluşturmak için ayrıştırıcı fonksiyon",
+	"index": "Dizin araması",
+	"index-legend": "Dizini ara",
+	"index-search": "Ara:",
+	"index-submit": "Gönder",
+	"index-hide-detail": "Sayfa listesini gizle",
+	"index-no-results": "Aramada sonuç bulunamadı"
 }

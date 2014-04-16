@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Paucabot"
-        ]
-    },
-    "index-search": "Cerca:",
-    "index-submit": "Envia",
-    "index-hide-detail": "Oculta la llista de pàgines"
+	"@metadata": {
+		"authors": [
+			"Paucabot"
+		]
+	},
+	"index-search": "Cerca:",
+	"index-submit": "Envia",
+	"index-hide-detail": "Oculta la llista de pàgines"
 }

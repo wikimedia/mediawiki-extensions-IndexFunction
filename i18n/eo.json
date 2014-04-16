@@ -1,14 +1,14 @@
 {
-    "@metadata": {
-        "authors": [
-            "Yekrats"
-        ]
-    },
-    "indexfunc-badtitle": "Malvalida titolo: \"$1\"",
-    "indexfunc-index-exists": "La paĝo \"$1\" jam ekzistas",
-    "index": "Indeksa serĉo",
-    "index-legend": "Serĉi la indekson",
-    "index-search": "Serĉi",
-    "index-submit": "Enmeti",
-    "index-hide-detail": "Kaŝi la liston de paĝoj"
+	"@metadata": {
+		"authors": [
+			"Yekrats"
+		]
+	},
+	"indexfunc-badtitle": "Malvalida titolo: \"$1\"",
+	"indexfunc-index-exists": "La paĝo \"$1\" jam ekzistas",
+	"index": "Indeksa serĉo",
+	"index-legend": "Serĉi la indekson",
+	"index-search": "Serĉi",
+	"index-submit": "Enmeti",
+	"index-hide-detail": "Kaŝi la liston de paĝoj"
 }

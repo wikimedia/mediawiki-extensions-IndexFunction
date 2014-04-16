@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Avjoska"
-        ]
-    },
-    "indexfunc-index-exists": "Lehekülg \"$1\" on juba olemas"
+	"@metadata": {
+		"authors": [
+			"Avjoska"
+		]
+	},
+	"indexfunc-index-exists": "Lehekülg \"$1\" on juba olemas"
 }
