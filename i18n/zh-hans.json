@@ -12,6 +12,7 @@
 	"indexfunc-badtitle": "无效标题：“$1”",
 	"indexfunc-editwarning": "警告：\n此标题是下列$2个页面中的一个索引标题：\n$1\n请确定您要创建的页面不存在于下列页面的子标题中。\n如果您要创建此页面，在上述页面中的<nowiki>{{#index:}}</nowiki>中移除此标题。",
 	"indexfunc-index-exists": "“$1”页面已存在",
+	"indexfunc-movewarn": "警告：“$1”是以下$3个页面的索引标题：$2\n请在以上页面的<nowiki>{{#index:}}</nowiki>部分移除“$1”。",
 	"index": "索引搜索",
 	"index-legend": "搜索索引",
 	"index-search": "搜索：",
