@@ -19,6 +19,8 @@
 	"index-submit": "提交",
 	"index-disambig-start": "'''$1'''可能指几个页面：",
 	"index-emptylist": "没有页面与“$1”关联。",
+	"index-expand-detail": "显示此标题索引的页面",
 	"index-hide-detail": "隐藏页面列表",
-	"index-no-results": "无任何搜索结果"
+	"index-no-results": "无任何搜索结果",
+	"index-search-explain": "此页面使用前缀搜索。\n输入前几个字符并按提交按钮以搜索指定字符串开头的页面标题和索引记录"
 }
