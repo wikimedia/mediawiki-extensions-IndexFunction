@@ -22,5 +22,6 @@
 	"index-expand-detail": "显示此标题索引的页面",
 	"index-hide-detail": "隐藏页面列表",
 	"index-no-results": "无任何搜索结果",
-	"index-search-explain": "此页面使用前缀搜索。\n输入前几个字符并按提交按钮以搜索指定字符串开头的页面标题和索引记录"
+	"index-search-explain": "此页面使用前缀搜索。\n输入前几个字符并按提交按钮以搜索指定字符串开头的页面标题和索引记录",
+	"index-details-explain": "带有箭头的记录是记录索引。点击箭头以显示此标题下的页面。"
 }
