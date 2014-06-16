@@ -84,6 +84,11 @@ $specialPageAliases['gl'] = array(
 	'Index' => array( 'Índice' ),
 );
 
+/** Upper Sorbian (hornjoserbsce) */
+$specialPageAliases['hsb'] = array(
+	'Index' => array( 'Indeks' ),
+);
+
 /** Haitian (Kreyòl ayisyen) */
 $specialPageAliases['ht'] = array(
 	'Index' => array( 'Endèks' ),
