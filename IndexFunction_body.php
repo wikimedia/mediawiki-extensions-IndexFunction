@@ -175,7 +175,7 @@ class IndexFunctionHooks {
 
 		$attribs['class'] = str_replace( 'new', 'mw-index', $attribs['class'] );
 		$attribs['href'] = $target->getLinkUrl();
-		$attribs['title'] = $target->getEscapedText();
+		$attribs['title'] = htmlspecialchars( $target->getPrefixedText() );
 
 		return true;
 	}
