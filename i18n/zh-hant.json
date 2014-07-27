@@ -4,13 +4,14 @@
 			"Liangent",
 			"Mark85296341",
 			"Oapbtommy",
-			"Wrightbus"
+			"Wrightbus",
+			"LNDDYL"
 		]
 	},
 	"indexfunc-badtitle": "無效標題：「$1」",
 	"indexfunc-index-exists": "「$1」頁面已存在",
 	"index": "索引搜索",
-	"index-legend": "搜索索引",
+	"index-legend": "搜尋索引",
 	"index-search": "搜尋：",
 	"index-submit": "提交",
 	"index-hide-detail": "隱藏頁面清單",
