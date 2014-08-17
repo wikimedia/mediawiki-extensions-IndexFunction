@@ -6,8 +6,8 @@
 */
 
 class IndexFunction {
-	var $mTo = array(); // An array of titles for pages being indexed
-	var $mFrom = null; // A title object representing the index-title
+	public $mTo = array(); // An array of titles for pages being indexed
+	public $mFrom = null; // A title object representing the index-title
 
 	function __construct() {}
 
