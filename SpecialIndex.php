@@ -63,9 +63,8 @@ class SpecialIndexPager extends AlphabeticPager {
 	}
 
 	protected function arrow( $dir, $alt = '', $title = '' ) {
-		global $wgStylePath;
-
-		$encUrl = htmlspecialchars( $wgStylePath . '/common/images/Arr_' . $dir . '.png' );
+		global $wgExtensionAssetsPath;
+		$encUrl = htmlspecialchars( $wgExtensionAssetsPath . '/IndexFunction/images/Arr_' . $dir . '.png' );
 		$encAlt = htmlspecialchars( $alt );
 		$encTitle = htmlspecialchars( $title );
 
