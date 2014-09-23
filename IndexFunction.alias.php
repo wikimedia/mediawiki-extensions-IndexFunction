@@ -194,7 +194,7 @@ $specialPageAliases['tr'] = array(
 	'Index' => array( 'Dizin', 'Endeks' ),
 );
 
-/** vèneto (vèneto) */
+/** Venetian (vèneto) */
 $specialPageAliases['vec'] = array(
 	'Index' => array( 'Indice' ),
 );
