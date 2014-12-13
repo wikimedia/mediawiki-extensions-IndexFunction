@@ -199,6 +199,11 @@ $specialPageAliases['vec'] = array(
 	'Index' => array( 'Indice' ),
 );
 
+/** Chinese (中文) */
+$specialPageAliases['zh'] = array(
+	'Index' => array( '索引' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'Index' => array( '索引' ),
