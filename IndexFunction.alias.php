@@ -194,6 +194,11 @@ $specialPageAliases['tr'] = array(
 	'Index' => array( 'Dizin', 'Endeks' ),
 );
 
+/** Urdu (اردو) */
+$specialPageAliases['ur'] = array(
+	'Index' => array( 'اشاریہ' ),
+);
+
 /** Venetian (vèneto) */
 $specialPageAliases['vec'] = array(
 	'Index' => array( 'Indice' ),
