@@ -7,10 +7,11 @@
 			"Purodha",
 			"Raymond",
 			"Shirayuki",
-			"Umherirrender"
+			"Umherirrender",
+			"Mormegil"
 		]
 	},
-	"indexfunc-desc": "{{desc}}",
+	"indexfunc-desc": "{{desc|name=IndexFunction|url=https://www.mediawiki.org/wiki/Extension:IndexFunction}}",
 	"indexfunc-badtitle": "Used as error message. Parameters:\n* $1 - page title\nSee also:\n* {{msg-mw|Indexfunc-index-exists}}\n{{Identical|Invalid title}}",
 	"indexfunc-editwarning": "Used as warning when editing. Parameters:\n* $1 - list of target pages\n* $2 - number of target pages\nSee also:\n* {{msg-mw|Indexfunc-movewarn}}",
 	"indexfunc-index-exists": "Used as error message. Parameters:\n* $1 - page title\nSee also:\n* {{msg-mw|Indexfunc-badtitle}}",
