@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Paucabot"
+			"Paucabot",
+			"Joan manel"
 		]
 	},
+	"index": "Cerca a l'índex",
 	"index-search": "Cerca:",
 	"index-submit": "Envia",
 	"index-hide-detail": "Oculta la llista de pàgines"
