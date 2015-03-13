@@ -3,10 +3,12 @@
 		"authors": [
 			"Cekli829",
 			"Vago",
-			"Wertuose"
+			"Wertuose",
+			"Dağlı95"
 		]
 	},
 	"indexfunc-badtitle": "Yanlış başlıq: \"$1\"",
+	"index": "Axtarış indeksi",
 	"index-search": "Axtar:",
 	"index-submit": "Təsdiq et",
 	"index-hide-detail": "Səhifələrin siyahısını gizlə"
