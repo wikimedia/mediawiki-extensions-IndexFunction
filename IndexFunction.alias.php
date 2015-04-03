@@ -134,6 +134,11 @@ $specialPageAliases['lad'] = array(
 	'Index' => array( 'Fijhrist' ),
 );
 
+/** لوری (لوری) */
+$specialPageAliases['lrc'] = array(
+	'Index' => array( 'سیائه' ),
+);
+
 /** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'Index' => array( 'Индекс' ),
