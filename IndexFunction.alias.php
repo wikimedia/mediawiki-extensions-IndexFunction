@@ -39,6 +39,11 @@ $specialPageAliases['as'] = array(
 	'Index' => array( 'সূচী' ),
 );
 
+/** Western Balochi (بلوچی رخشانی) */
+$specialPageAliases['bgn'] = array(
+	'Index' => array( 'نمایگ' ),
+);
+
 /** Breton (brezhoneg) */
 $specialPageAliases['br'] = array(
 	'Index' => array( 'Meneger' ),
