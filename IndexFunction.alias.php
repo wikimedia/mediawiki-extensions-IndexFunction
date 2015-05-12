@@ -29,7 +29,7 @@ $specialPageAliases['arc'] = array(
 	'Index' => array( 'ܡܚܘܝܢܐ' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $specialPageAliases['arz'] = array(
 	'Index' => array( 'فهرس' ),
 );
@@ -74,7 +74,7 @@ $specialPageAliases['fa'] = array(
 	'Index' => array( 'نمایه' ),
 );
 
-/** Franco-Provençal (arpetan) */
+/** Arpitan (arpetan) */
 $specialPageAliases['frp'] = array(
 	'Index' => array( 'Endèxe' ),
 );
@@ -139,7 +139,7 @@ $specialPageAliases['lad'] = array(
 	'Index' => array( 'Fijhrist' ),
 );
 
-/** لوری (لوری) */
+/** لوری مینجایی (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
 	'Index' => array( 'سیائه' ),
 );
