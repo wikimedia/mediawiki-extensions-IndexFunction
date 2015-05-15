@@ -139,7 +139,7 @@ $specialPageAliases['lad'] = array(
 	'Index' => array( 'Fijhrist' ),
 );
 
-/** لوری مینجایی (لوری مینجایی) */
+/** Northern Luri (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
 	'Index' => array( 'سیائه' ),
 );
