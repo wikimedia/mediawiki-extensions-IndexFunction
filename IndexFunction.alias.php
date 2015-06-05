@@ -141,7 +141,7 @@ $specialPageAliases['lad'] = array(
 
 /** Northern Luri (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
-	'Index' => array( 'سیائه' ),
+	'Index' => array( 'سیاأ' ),
 );
 
 /** Macedonian (македонски) */
