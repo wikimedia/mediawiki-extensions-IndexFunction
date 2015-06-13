@@ -5,7 +5,7 @@
 		]
 	},
 	"indexfunc-desc": "Paaserfunxjuhn för Ömleijdunge un „Watt ėßß datt?“-Sigge automattesch jemaat ze krijje.",
-	"indexfunc-badtitle": "„$1“ es ene onjöltije Sigge-Tittel.",
+	"indexfunc-badtitle": "„$1“ es en onjöltije Övverschreff för en Sigg.",
 	"indexfunc-editwarning": "Opjepaß: Dat es ene Tittel för en automattesche Ömleijdung udder „Watt ėßß datt?“-Sigg, för heh di {{PLURAL:$2|Sigg |Sigge|Fähler!}}:\n$1\nBes sescher, dat et di Sigg, di De aanlääje wells, anderswoh nit ald onger enem andere Tittel jitt.\nWann De heh di Sigg aanlääje wells, dann nemm op dä {{PLURAL:$2|Sigg|Sigge|Fähler}} bovve heh dä Tittel uß däm <nowiki>{{#index:}}</nowiki> eruß!",
 	"indexfunc-index-exists": "Di Sigg „$1“ jitt et ald.",
 	"indexfunc-movewarn": "Opjepaß: „$1“ es ene Tittel för en automattesche Ömleijdung udder „Watt ėßß datt?“-Sigg, för heh di {{PLURAL:$3|Sigg |Sigge|Fähler!}}:\n$2\nNemm op dä {{PLURAL:$3|Sigg|Sigge|Fähler}} dat „$1“ uß däm <nowiki>{{#index:}}</nowiki> eruß!",
@@ -18,6 +18,6 @@
 	"index-expand-detail": "Zeijsch all di automattesche Ömleijdunge un automattesche „Watt ėßß datt?“-Sigge onger däm Tittel",
 	"index-hide-detail": "Donn de Sigge-Leß vershteishe",
 	"index-no-results": "Bei däm Söke es nix eruß jekumme",
-	"index-search-explain": "Heh di Sigg beedt et Söhke noh Aanfäng.\n\nDonn de eezte pa Bochshtave udder Zeijsche tippe, un donn dann dä Knopp „{{int:index-submit}}“ dröcke, öm noh Sigge ier Tittelle un noh Endrääsch för automattesche Ömleijdunge un automattesche „Watt ėßß datt?“-Sigge ze söhke, di met jenou dä Bochshtave udder Zeijsche aanfange.",
+	"index-search-explain": "Heh di Sigg beedt et Söhke noh Aanfäng.\n\nDonn de eezte pa Bochshtave udder Zeijsche tippe, un donn dann dä Knopp „{{int:index-submit}}“ dröcke, öm noh Sigge ier Övverschreff un noh Endrääsch för automattesche Ömleijdunge un automattesche „Watt ėßß datt?“-Sigge ze söhke, di met jenou dä Bochshtave udder Zeijsche aanfange.",
 	"index-details-explain": "Endrääsch met piele en för för automattesche Ömleijdunge un automattesche „Watt ėßß datt?“-Sigge. Donn op dä Piel klecke, öm all di automattesche Ömleijdunge un automattesche „Watt ėßß datt?“-Sigge jezeijsch ze krijje, di dä Tittel han."
 }
