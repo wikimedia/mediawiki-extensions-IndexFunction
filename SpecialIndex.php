@@ -384,4 +384,8 @@ class SpecialIndex extends SpecialPage {
 		}
 		return $line;
 	}
+
+	protected function getGroupName() {
+		return 'pages';
+	}
 }

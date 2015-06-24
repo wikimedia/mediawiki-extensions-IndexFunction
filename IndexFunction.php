@@ -35,7 +35,6 @@ $wgHooks['ParserTestTables'][] = 'efParserTestTables';
 
 # Setup the special page
 $wgSpecialPages['Index'] = 'SpecialIndex';
-$wgSpecialPageGroups['Index'] = 'pages';
 
 # i18n
 $wgExtensionMessagesFiles['IndexFunctionAlias'] = $dir . 'IndexFunction.alias.php';
