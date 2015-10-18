@@ -23,5 +23,9 @@
 	"index-disambig-start": "Parameters:\n* $1 - page title",
 	"index-exclude-categories": "{{notranslate}}",
 	"index-emptylist": "Used if there are no pages to show. Parameters:\n* $1 - page title",
-	"index-search-explain": "If your language permits, you can replace <code>submit</code> with <code>{<nowiki />{int:index-submit}}</code> for the button label."
+	"index-expand-detail": "Used as toggle on [[Special:Index]]",
+	"index-hide-detail": "Used as toggle on [[Special:Index]]",
+	"index-no-results": "Used as error message on [[Special:Index]]",
+	"index-search-explain": "If your language permits, you can replace <code>submit</code> with <code>{<nowiki />{int:index-submit}}</code> for the button label.",
+	"index-details-explain": "Used as note for javascript users on [[Special:Index]]"
 }
