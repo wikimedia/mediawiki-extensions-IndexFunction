@@ -271,7 +271,7 @@ class IndexFunctionHooks {
 		$toRem = wfArrayDiff2( $current, $parseroutput->mIndexes );
 
 		if ( $toAdd || $toRem ) {
-			$dbw->begin( __METHOD__ );
+			$dbw->startAtomic( __METHOD__ );
 
 			if ( $toRem ) {
 				$delCond = "in_from = $pageid AND (";
@@ -297,7 +297,7 @@ class IndexFunctionHooks {
 				$dbw->insert( 'indexes', $ins, __METHOD__ );
 			}
 
-			$dbw->commit( __METHOD__ );
+			$dbw->endAtomic( __METHOD__ );
 		}
 		return true;
 	}
