@@ -206,8 +206,7 @@ class SpecialIndex extends SpecialPage {
 	}
 
 	function showDabPage( Title $t1 ) {
-		global $wgOut, $wgUser, $wgSpecialIndexContext;
-		$sk = $wgUser->getSkin();
+		global $wgOut, $wgSpecialIndexContext;
 		$wgOut->setPagetitle( $t1->getPrefixedText() );
 		$dbr = wfGetDB( DB_SLAVE );
 		$pages = $dbr->select( array( 'page', 'indexes' ),
