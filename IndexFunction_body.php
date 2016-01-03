@@ -207,7 +207,7 @@ class IndexFunctionHooks {
 			$t = Title::newFromText( $name );
 
 			if ( is_null( $t ) ) {
-				$errors[] = wfMsg( 'indexfunc-badtitle', $name );
+				$errors[] = wfMessage( 'indexfunc-badtitle', $name )->text();
 				continue;
 			}
 
@@ -220,7 +220,7 @@ class IndexFunctionHooks {
 			}
 
 			if ( $t->exists() ) {
-				$errors[] = wfMsg( 'indexfunc-index-exists', $name );
+				$errors[] = wfMessage( 'indexfunc-index-exists', $name )->text();
 				continue;
 			}
 			$indexCount++;
@@ -336,7 +336,7 @@ class IndexFunctionHooks {
 
 		$list = $index->makeTargetList();
 		$c = count( $index->getTargets() );
-		$warn = wfMsgExt( 'indexfunc-editwarning', array( 'parsemag' ), $list, $c );
+		$warn = wfMessage( 'indexfunc-editwarning', $list, $c )->text();
 		$editpage->editFormTextTop .= "<span class='error'>$warn</span>";
 
 		return true;
@@ -362,7 +362,7 @@ class IndexFunctionHooks {
 			 __METHOD__
 		);
 
-		$msg = wfMsgExt( 'indexfunc-movewarn', array( 'parsemag' ), $new->getPrefixedText(), $list, $c );
+		$msg = wfMessage( 'indexfunc-movewarn', $new->getPrefixedText(), $list, $c )->text();
 		$msg = "<span class='error'>$msg</span>";
 
 		$wgOut->addHTML( $msg );
