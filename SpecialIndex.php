@@ -30,8 +30,8 @@ class SpecialIndexPager extends AlphabeticPager {
 			$link = Linker::link( $title, $targettitle->getPrefixedText(), array( 'class' => 'mw-index' ), array(), array( 'known', 'noclasses' ) );
 
 			$jsid = $this->mJSid;
-			$expandTitle = wfMsgHtml( 'index-expand-detail' );
-			$closeTitle = wfMsgHtml( 'index-hide-detail' );
+			$expandTitle = $this->msg( 'index-expand-detail' )->escaped();
+			$closeTitle = $this->msg( 'index-hide-detail' )->escaped();
 			$toggleLink = "onclick='toggleVisibility($jsid); return false'";
 			$tl = "<span id='mw-index-open-$jsid' class='mw-index-expanded' style='visibility:hidden' ><a href='#' $toggleLink title='$expandTitle'>" . $this->sideArrow() . "</a></span>";
 			$tl .= "<span id='mw-index-close-$jsid' class='mw-index-hidden' style='display:none'><a href='#' $toggleLink title='$closeTitle'>" . $this->downArrow() . "</a></span>";
@@ -76,11 +76,11 @@ class SpecialIndexPager extends AlphabeticPager {
 
 		$dir = $wgContLang->isRTL() ? 'l' : 'r';
 
-		return $this->arrow( $dir, '+', wfMsg( 'index-expand-detail' ) );
+		return $this->arrow( $dir, '+', $this->msg( 'index-expand-detail' )->text() );
 	}
 
 	protected function downArrow() {
-		return $this->arrow( 'd', '-', wfMsg( 'index-hide-detail' ) );
+		return $this->arrow( 'd', '-', $this->msg( 'index-hide-detail' )->text() );
 	}
 
 	protected function spacerArrow() {
@@ -96,7 +96,7 @@ class SpecialIndexPager extends AlphabeticPager {
 	}
 
 	function getEmptyBody() {
-		return "<tr><td class='errorbox'>" . wfMsgHtml( 'index-no-results' ) . "</td></tr>";
+		return "<tr><td class='errorbox'>" . $this->msg( 'index-no-results' )->escaped() . "</td></tr>";
 	}
 
 	// Need to override reallyDoQuery() to do the UNION
@@ -173,14 +173,14 @@ class SpecialIndex extends SpecialPage {
 		$wgOut->addScriptFile( "$wgExtensionAssetsPath/IndexFunction/specialindex.js" );
 		$wgOut->addWikiMsg( 'index-search-explain' );
 		$form = Xml::openElement( 'fieldset', array( 'style' => 'line-height:200%' ) ) .
-		Xml::element( 'legend', array(), wfMsgHtml( 'index-legend' ) ) .
+		Xml::element( 'legend', array(), $this->msg( 'index-legend' )->escaped() ) .
 		Xml::openElement( 'form', array( 'method' => 'GET', 'action' => $wgScript ) ) .
 		 Html::Hidden( 'title', $this->getPageTitle()->getPrefixedDbKey() ) .
 
-		Xml::label( wfMsg( 'index-search' ), 'mw-index-searchtext' ) .
+		Xml::label( $this->msg( 'index-search' )->text(), 'mw-index-searchtext' ) .
 		Xml::input( 'searchtext', 100, $search, array( 'id' => 'mw-index-searchtext' ) ) .
 		'<br />' .
-		Xml::submitButton( wfMsg( 'index-submit' ) ) .
+		Xml::submitButton( $this->msg( 'index-submit' )->text() ) .
 
 		Xml::closeElement( 'form' ) .
 		Xml::closeElement( 'fieldset' );
@@ -193,7 +193,7 @@ class SpecialIndex extends SpecialPage {
 			$t = Title::newFromText( $wgRequest->getVal( 'searchtext' ) );
 			$pager = new SpecialIndexPager( $t );
 			$out = Xml::openElement( 'div', array( 'id' => 'mw-index-searchresults' ) ) .
-				'<div id="use-js-note" style="display:none">' . wfMsgExt( 'index-details-explain' , array( 'parse' ) ) . '</div>' .
+				'<div id="use-js-note" style="display:none">' . $this->msg( 'index-details-explain')->parseAsBlock() . '</div>' .
 				$pager->getNavigationBar() .
 				Xml::openElement( 'table' ) .
 				$pager->getBody() .
@@ -238,7 +238,7 @@ class SpecialIndex extends SpecialPage {
 		$keys = array_keys( $list );
 		$set = '(' . implode( ',', $keys ) . ')';
 
-		$exclude = wfMsg( 'index-exclude-categories' );
+		$exclude = $this->msg( 'index-exclude-categories' )->text();
 		$excludecats = array();
 
 		if ( $exclude ) {
