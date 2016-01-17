@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hosseinblue"
+			"Hosseinblue",
+			"Lakzon"
 		]
 	},
 	"indexfunc-desc": "عملیات تجزیه برای ایجاد تغییر جهت‌های خودکار و ابهام‌زدایی صفحات",
@@ -11,7 +12,7 @@
 	"indexfunc-movewarn": "هشدار:\n\"$1\" یک عنوان شاخص برای {{PLURAL:$3|page|pages}} زیر است:\n$2\nلطفاً‌ \"$1\" را از <nowiki>{{#index:}}</nowiki> در بالای {{PLURAL:$3|page|pages}} حذف کنید.",
 	"index": "جستجوی شاخص",
 	"index-legend": "جستجوی فهرست",
-	"index-search": ": گئردین/مهِ نی",
+	"index-search": ": مِنِی کِردِن(گێردین)",
 	"index-submit": "ارسال/کِل کردن",
 	"index-disambig-start": "ممکن است '''$1''' به چندین وةڵگة رجوع کند:",
 	"index-emptylist": "هیچ وةڵگةئ مرتبط با \"$1\" نیست",
