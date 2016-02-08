@@ -163,7 +163,7 @@ class IndexFunctionHooks {
 
 	// Turn links to indexes into blue links
 	static function blueLinkIndexes( $skin, $target, $options, &$text, &$attribs, &$ret ) {
-		if ( in_array( 'known', $options ) ) {
+		if ( in_array( 'known', $options, true ) ) {
 			return true;
 		}
 
