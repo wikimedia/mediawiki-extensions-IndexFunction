@@ -1,6 +1,8 @@
 // Javascript for Special:Index to hide/show details
 // Adapted from the enhanced RC JS
 
+var appendCSS;
+
 appendCSS('.mw-index-hidden {'+
 	'	display:none;'+
 	'}'+
@@ -23,7 +25,7 @@ function toggleVisibility(idNumber) {
 	var openarrow = document.getElementById("mw-index-open-"+idNumber);
 	var closearrow = document.getElementById("mw-index-close-"+idNumber);
 	var inner = document.getElementById("mw-index-inner-"+idNumber);
-	if (openarrow.className == 'mw-index-expanded') {
+	if (openarrow.className === 'mw-index-expanded') {
 		openarrow.className = 'mw-index-hidden';
 		closearrow.className = 'mw-index-expanded';
 		inner.className = 'mw-index-expanded';
