@@ -24,7 +24,7 @@ $wgHooks['SearchGetNearMatch'][] = 'IndexFunctionHooks::redirectSearch';
 # Remove things from the index table when a page is deleted
 $wgHooks['ArticleDeleteComplete'][] = 'IndexFunctionHooks::onDelete';
 # Remove things from the index table when creating a new page
-$wgHooks['ArticleInsertComplete'][] = 'IndexFunctionHooks::onCreate';
+$wgHooks['PageContentInsertComplete'][] = 'IndexFunctionHooks::onCreate';
 # Show a warning when editing an index title
 $wgHooks['EditPage::showEditForm:initial'][] = 'IndexFunctionHooks::editWarning';
 # Show a warning after page move, and do some cleanup

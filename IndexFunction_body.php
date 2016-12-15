@@ -310,9 +310,9 @@ class IndexFunctionHooks {
 		return true;
 	}
 
-	// When creating an article, delete its title from the index table
-	static function onCreate( &$article, &$user, $text, $summary, $minoredit, $watchthis, $sectionanchor, &$flags, $revision ) {
-		$t = $article->mTitle;
+	// When creating an page, delete its title from the index table
+	static function onCreate( $wikiPage, $user, $content, $summary, $isMinor, $isWatch, $section, $flags, $revision ) {
+		$t = $wikiPage->getTitle();
 		$ns = $t->getNamespace();
 		$dbkey = $t->getDBkey();
 		$dbw = wfGetDB( DB_MASTER );
