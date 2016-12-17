@@ -99,7 +99,7 @@ class IndexAbstracts {
 		$rev = Revision::newFromTitle( $title );
 
 		if ( $rev ) {
-			$text = substr( $rev->getText(), 0, 16384 );
+			$text = substr( ContentHandler::getContentText( $rev->getContent() ), 0, 16384 );
 
 			// Ok, first note this is a TERRIBLE HACK. :D
 			//
