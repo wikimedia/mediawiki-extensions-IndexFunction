@@ -56,7 +56,7 @@ class IndexAbstracts {
 
 		if ( $title ) {
 			$ns = $title->getNamespace();
-			if ( $title->getInterwiki() || $ns == NS_IMAGE || $ns == NS_CATEGORY ) {
+			if ( $title->getInterwiki() || $ns == NS_FILE || $ns == NS_CATEGORY ) {
 				return "";
 			} else {
 				return $text;
