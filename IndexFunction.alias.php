@@ -44,6 +44,11 @@ $specialPageAliases['bgn'] = array(
 	'Index' => array( 'نمایگ' ),
 );
 
+/** Bengali (বাংলা) */
+$specialPageAliases['bn'] = array(
+	'Index' => array( 'নির্ঘণ্ট' ),
+);
+
 /** Breton (brezhoneg) */
 $specialPageAliases['br'] = array(
 	'Index' => array( 'Meneger' ),
