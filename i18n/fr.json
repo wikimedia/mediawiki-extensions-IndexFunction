@@ -3,10 +3,11 @@
 		"authors": [
 			"Crochet.david",
 			"IAlex",
-			"Verdy p"
+			"Verdy p",
+			"Urhixidur"
 		]
 	},
-	"indexfunc-desc": "Fonction du parseur pour créer des pages de redirection et d'homonymie automatiquement",
+	"indexfunc-desc": "Fonction de l’analyseur pour créer des pages de redirection et d’homonymie automatiquement",
 	"indexfunc-badtitle": "Titre invalide : « $1»",
 	"indexfunc-editwarning": "Attention : ce titre est un titre d'index pour {{PLURAL:$2|la page suivante|les pages suivantes}} :\n$1\nSoyez sûr que la page que vous êtes sur le point de créer n'existe pas sous un autre titre.\nSi vous créez cette page, retirez-là de <nowiki>{{#index:}}</nowiki> {{PLURAL:$2|de la page|des pages}} ci-dessus.",
 	"indexfunc-index-exists": "La page « $1 » existe déjà",
