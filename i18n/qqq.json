@@ -8,7 +8,8 @@
 			"Raymond",
 			"Shirayuki",
 			"Umherirrender",
-			"Mormegil"
+			"Mormegil",
+			"Bugoslav"
 		]
 	},
 	"indexfunc-desc": "{{desc|name=IndexFunction|url=https://www.mediawiki.org/wiki/Extension:IndexFunction}}",
@@ -16,7 +17,7 @@
 	"indexfunc-editwarning": "Used as warning when editing. Parameters:\n* $1 - list of target pages\n* $2 - number of target pages\nSee also:\n* {{msg-mw|Indexfunc-movewarn}}",
 	"indexfunc-index-exists": "Used as error message. Parameters:\n* $1 - page title\nSee also:\n* {{msg-mw|Indexfunc-badtitle}}",
 	"indexfunc-movewarn": "Used as warning when moving. Parameters:\n* $1 - page title\n* $2 - list of target pages\n* $3 - number of target pages\nSee also:\n* {{msg-mw|Indexfunc-editwarning}}",
-	"index": "This is either the name of the parser function, to be used inside the wiki code, or not used, if I got it right. --[[User:Purodha|Purodha Blissenbach]] 00:13, 15 July 2009 (UTC)",
+	"index": "This is a label at the MediaWiki:Sidebar indicating searching through the A-Z index (like [[m:w:en:Portal:Contents/A–Z index]]).",
 	"index-legend": "Used in [[Special:Index]].",
 	"index-search": "Used as label for the \"Search text\" input box.\n{{Identical|Search}}",
 	"index-submit": "Used as label for the Submit button.\n{{Identical|Submit}}",
