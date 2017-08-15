@@ -84,7 +84,7 @@ class SpecialIndexPager extends AlphabeticPager {
 	}
 
 	protected function spacerArrow() {
-		return $this->arrow( '', codepointToUtf8( 0xa0 ) ); // non-breaking space
+		return $this->arrow( '', "\xC2\xA0" ); // non-breaking space
 	}
 
 	// Since we're overriding reallyDoQuery, we don't really need this
