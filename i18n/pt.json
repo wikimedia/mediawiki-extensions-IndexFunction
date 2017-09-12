@@ -5,7 +5,7 @@
 			"Luckas"
 		]
 	},
-	"indexfunc-desc": "Função do analisador sintáctico ''(parser),'' para criação automática de páginas de redirecionamento e de desambiguação",
+	"indexfunc-desc": "Função do analisador sintático ''(parser),'' para criação automática de páginas de redirecionamento e de desambiguação",
 	"indexfunc-badtitle": "Título inválido: \"$1\"",
 	"indexfunc-editwarning": "Aviso:\nEste título já consta do índice de títulos {{PLURAL:$2|na seguinte página|nas seguintes páginas}}:\n$1\nCertifique-se de que a página que está prestes a criar não existe já com um título diferente.\nSe criar esta página, elimine este título da função <nowiki>{{#index:}}</nowiki> {{PLURAL:$1|na página acima|nas páginas listadas acima}}.",
 	"indexfunc-index-exists": "A página \"$1\" já existe",
