@@ -172,20 +172,27 @@ class SpecialIndex extends SpecialPage {
 		$search = $wgRequest->getText( 'searchtext' );
 		$wgOut->addScriptFile( "$wgExtensionAssetsPath/IndexFunction/specialindex.js" );
 		$wgOut->addWikiMsg( 'index-search-explain' );
-		$form = Xml::openElement( 'fieldset', array( 'style' => 'line-height:200%' ) ) .
-		Xml::element( 'legend', array(), $this->msg( 'index-legend' )->escaped() ) .
-		Xml::openElement( 'form', array( 'method' => 'GET', 'action' => $wgScript ) ) .
-		 Html::Hidden( 'title', $this->getPageTitle()->getPrefixedDbKey() ) .
 
-		Xml::label( $this->msg( 'index-search' )->text(), 'mw-index-searchtext' ) .
-		Xml::input( 'searchtext', 100, $search, array( 'id' => 'mw-index-searchtext' ) ) .
-		'<br />' .
-		Xml::submitButton( $this->msg( 'index-submit' )->text() ) .
+		$formDescriptor = [
+			'textbox' => [
+				'type' => 'text',
+				'name' => 'searchtext',
+				'id' => 'mw-index-searchtext',
+				'label' => $this->msg( 'index-search' )->text(),
+				'size' => 100,
+				'value' => $search,
+			]
+		];
 
-		Xml::closeElement( 'form' ) .
-		Xml::closeElement( 'fieldset' );
-
-		$wgOut->addHTML( $form );
+		$htmlForm = HTMLForm::factory( 'ooui', $formDescriptor, $this->getContext() );
+		$htmlForm
+			->addHiddenField( 'title', $this->getPageTitle()->getPrefixedDbKey() )
+			->setAction( $wgScript )
+			->setMethod( 'get' )
+			->setSubmitText( $this->msg( 'index-submit' )->text() )
+			->setWrapperLegend( $this->msg( 'index-legend' )->escaped() )
+			->prepareForm()
+			->displayForm( false );
 
 		$t = Title::newFromText( $search );
 
