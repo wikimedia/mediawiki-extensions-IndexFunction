@@ -180,7 +180,7 @@ class SpecialIndex extends SpecialPage {
 				'id' => 'mw-index-searchtext',
 				'label' => $this->msg( 'index-search' )->text(),
 				'size' => 100,
-				'value' => $search,
+				'default' => $search,
 			]
 		];
 
