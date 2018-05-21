@@ -23,6 +23,6 @@
 	"index-expand-detail": "顯示基於此標題索引的頁面",
 	"index-hide-detail": "隱藏頁面清單",
 	"index-no-results": "無任何搜尋結果",
-	"index-search-explain": "此頁面使用前綴搜尋。\n\n輸入前幾個字元並按下提交鍵來搜尋開頭為搜尋字串的頁面標題與索引項目",
+	"index-search-explain": "此頁面使用詞頭搜尋。\n\n輸入前幾個字元並按下送出鍵來搜尋開頭為搜尋字串的頁面標題與索引項目",
 	"index-details-explain": "帶有箭頭的項目為索引項目。\n請點擊箭頭來顯示基於標題索引的所有頁面。"
 }
