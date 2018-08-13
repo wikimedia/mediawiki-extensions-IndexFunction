@@ -3,10 +3,11 @@
 		"authors": [
 			"Жељко Тодоровић",
 			"Михајло Анђелковић",
-			"Milicevic01"
+			"Milicevic01",
+			"BadDog"
 		]
 	},
-	"indexfunc-badtitle": "Неисправан наслов: \"$1\"",
+	"indexfunc-badtitle": "Неважећи наслов: „$1“",
 	"index": "Индекс",
 	"index-search": "Претрага:",
 	"index-submit": "Пошаљи",
