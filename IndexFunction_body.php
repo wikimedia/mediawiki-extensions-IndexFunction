@@ -362,7 +362,7 @@ class IndexFunctionHooks {
 			 __METHOD__
 		);
 
-		$msg = wfMessage( 'indexfunc-movewarn', $new->getPrefixedText(), $list, $c )->text();
+		$msg = wfMessage( 'indexfunc-movewarn', $new->getPrefixedText(), $list, $c )->escaped();
 		$msg = "<span class='error'>$msg</span>";
 
 		$wgOut->addHTML( $msg );
