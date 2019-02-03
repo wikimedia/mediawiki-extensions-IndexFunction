@@ -181,6 +181,7 @@ class SpecialIndex extends SpecialPage {
 				'label' => $this->msg( 'index-search' )->text(),
 				'size' => 100,
 				'default' => $search,
+				'required' => true,
 			]
 		];
 
