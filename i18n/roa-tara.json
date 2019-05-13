@@ -4,7 +4,9 @@
 			"Joetaras"
 		]
 	},
+	"indexfunc-desc": "Funzione analizzatrice pe ccrejà redirezionaminde automatece e pàggene de disambiguazzione",
 	"indexfunc-badtitle": "Titole invalide: \"$1\"",
+	"indexfunc-index-exists": "'A pàgene \"$1\" già esiste",
 	"index": "Ricerche de l'indice",
 	"index-legend": "Cirche l'indice",
 	"index-search": "Cirche",
