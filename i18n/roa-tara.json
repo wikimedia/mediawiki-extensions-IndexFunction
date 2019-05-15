@@ -11,6 +11,9 @@
 	"index-legend": "Cirche l'indice",
 	"index-search": "Cirche",
 	"index-submit": "Conferme",
+	"index-disambig-start": "'''$1''' se pò referì a cchiù pàggene:",
+	"index-emptylist": "Non ge stonne pàggene associate cu \"$1\"",
+	"index-expand-detail": "Fà 'ndrucà le pàggene indicizzate sotte a stu titole",
 	"index-hide-detail": "Scunne l'elenghe de le pàggene",
 	"index-no-results": "'A ricerche nò dèje resultate"
 }
