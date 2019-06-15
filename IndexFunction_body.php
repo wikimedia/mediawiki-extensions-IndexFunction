@@ -15,7 +15,7 @@ class IndexFunction {
 	public static function newFromTitle( Title $indextitle ) {
 		$ns = $indextitle->getNamespace();
 		$t = $indextitle->getDBkey();
-		$dbr = wfGetDB( DB_SLAVE );
+		$dbr = wfGetDB( DB_REPLICA );
 
 		$res = $dbr->select( 'indexes', 'in_from',
 			array( 'in_namespace' => $ns, 'in_title' => $t ),
@@ -42,7 +42,7 @@ class IndexFunction {
 	// Constructor for known target
 	public static function newFromTarget( Title $target ) {
 		$pageid = $target->getArticleID();
-		$dbr = wfGetDB( DB_SLAVE );
+		$dbr = wfGetDB( DB_REPLICA );
 
 		$res = $dbr->select( 'indexes', array( 'in_namespace', 'in_title' ),
 			array( 'in_from' => $pageid ),
@@ -69,7 +69,7 @@ class IndexFunction {
 			return $this->mTo;
 		}
 
-		$dbr = wfGetDB( DB_SLAVE );
+		$dbr = wfGetDB( DB_REPLICA );
 		$ns = $this->mFrom->getNamespace();
 		$t = $this->mFrom->getDBkey();
 
