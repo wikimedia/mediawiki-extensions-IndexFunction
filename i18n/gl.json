@@ -19,6 +19,6 @@
 	"index-expand-detail": "Amosar as páxinas indexadas baixo este título",
 	"index-hide-detail": "Agochar a lista de páxinas",
 	"index-no-results": "A procura non devolveu resultados",
-	"index-search-explain": "Esta páxina usa unha procura por prefixos.  \n\nInsira os primeiros caracteres e prema o botón \"Enviar\" para buscar títulos de páxinas e entradas de índice que comezan coa secuencia de procura",
+	"index-search-explain": "Esta páxina usa unha procura por prefixos.  \n\nInsira os primeiros caracteres e prema o botón \"Enviar\" para procurar títulos de páxinas e entradas de índice que comezan coa secuencia de procura",
 	"index-details-explain": "As entradas con frechas son entradas de índice.\nPrema na frecha para amosar tódalas páxinas indexadas con ese título."
 }
