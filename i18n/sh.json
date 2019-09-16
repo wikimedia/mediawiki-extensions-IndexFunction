@@ -4,6 +4,8 @@
 			"Vlad5250"
 		]
 	},
+	"indexfunc-desc": "Parserska funkcija koja stvara automatska preusmjerenja i čvor stranice",
+	"indexfunc-badtitle": "Pogrešni naslov: \"$1\"",
 	"indexfunc-index-exists": "Stranica \"$1\" već postoji",
 	"index": "Indeksna pretraga",
 	"index-legend": "Pretraživanje indeksa",
