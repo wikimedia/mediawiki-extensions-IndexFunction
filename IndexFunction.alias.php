@@ -198,6 +198,11 @@ $specialPageAliases['sr-ec'] = array(
 	'Index' => array( 'Индекс', 'Попис' ),
 );
 
+/** Serbian (Latin script) (srpski (latinica)‎) */
+$specialPageAliases['sr-el'] = array(
+	'Index' => array( 'Indeks', 'Popis' ),
+);
+
 /** Tagalog (Tagalog) */
 $specialPageAliases['tl'] = array(
 	'Index' => array( 'Talatuntunan' ),
