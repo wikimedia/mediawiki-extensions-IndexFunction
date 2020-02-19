@@ -9,7 +9,7 @@
 	"indexfunc-badtitle": "Net valabelen Titel: \"$1\"",
 	"indexfunc-editwarning": "Opgepasst:\nDësen Titel ass en Index-Titel fir dës {{PLURAL:$2|Säit|Säiten}}:\n$1\nVergewëssert Iech datt déi Säit déi Dir am Gaang sidd unzeleeën net schonn ënner engem aneren Titel besteet.\nWann Dir dës Säit uleet, dann huelt dësen Titel vu(n)  <nowiki>{{#index:}}</nowiki> op {{PLURAL:$2|der Säit|de Säiten}} uewendriwwer erof.",
 	"indexfunc-index-exists": "D'Säit \"$1\" gëtt et schonn",
-	"indexfunc-movewarn": "Opgepasst:\n\"$1\" ass en Index-Titel fir dës {{PLURAL:$3|Säit|Säiten}}:\n$2\nHuelt w.e.g. \"$1\" vum <nowiki>{{#index:}}</nowiki> erof op {{PLURAL:$3|der Säit|de Säiten}} uewendriwwer.",
+	"indexfunc-movewarn": "Opgepasst:\n\"$1\" ass en Index-Titel fir dës {{PLURAL:$3|Säit|Säiten}}:\n$2\nHuelt wgl. \"$1\" vum <nowiki>{{#index:}}</nowiki> erof op {{PLURAL:$3|der Säit|de Säiten}} uewendriwwer.",
 	"index": "Index",
 	"index-legend": "Am Index sichen",
 	"index-search": "Sichen:",

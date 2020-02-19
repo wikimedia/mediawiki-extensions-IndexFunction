@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Yekrats"
+			"Yekrats",
+			"Robin van der Vliet"
 		]
 	},
-	"indexfunc-badtitle": "Malvalida titolo: \"$1\"",
+	"indexfunc-badtitle": "Nevalida titolo: \"$1\"",
 	"indexfunc-index-exists": "La paĝo \"$1\" jam ekzistas",
 	"index": "Indeksa serĉo",
 	"index-legend": "Serĉi la indekson",
