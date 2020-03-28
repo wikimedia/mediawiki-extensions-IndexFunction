@@ -43,7 +43,7 @@ $wgExtensionMessagesFiles['IndexFunctionMagic'] = $dir . 'IndexFunction.i18n.mag
 
 # Register classes with the autoloader
 $wgAutoloadClasses['SpecialIndex'] = $dir . 'SpecialIndex.php';
-$wgAutoloadClasses['IndexFunctionHooks'] = $dir . 'IndexFunction_body.php';
+$wgAutoloadClasses['IndexFunctionHooks'] = $dir . 'IndexFunctionHooks.php';
 $wgAutoloadClasses['IndexFunction'] = $dir . 'IndexFunction_body.php';
 $wgAutoloadClasses['IndexAbstracts'] = $dir . 'IndexAbstracts.php';
 $wgAutoloadClasses['SpecialIndexPager'] = $dir . 'SpecialIndex.php';
