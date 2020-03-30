@@ -68,8 +68,8 @@ class IndexFunctionHooks {
 	// Function called to render the parser function
 	// Output is an empty string unless there are errors
 	static function indexRender( &$parser ) {
-		if ( !isset( $parser->mOutput->mIndexes ) ) {
-			$parser->mOutput->mIndexes = array();
+		if ( !isset( $parser->getOutput()->mIndexes ) ) {
+			$parser->getOutput()->mIndexes = array();
 		}
 
 		static $indexCount = 0;
@@ -78,15 +78,15 @@ class IndexFunctionHooks {
 		$args = func_get_args();
 		unset( $args[0] );
 
-		if ( $parser->mOptions->getIsPreview() ) {
+		if ( $parser->getOptions()->getIsPreview() ) {
 			# This is kind of hacky, but it seems that we only
 			# know if its a preview during parse, not when its
 			# done, which is when it matters for this
-			$parser->mOutput->setProperty( 'preview', 1 );
+			$parser->getOutput()->setProperty( 'preview', 1 );
 		}
 
 		$errors = array();
-		$pageid = $parser->mTitle->getArticleID();
+		$pageid = $parser->getTitle()->getArticleID();
 
 		foreach ( $args as $name ) {
 			$t = Title::newFromText( $name );
@@ -109,7 +109,7 @@ class IndexFunctionHooks {
 				continue;
 			}
 			$indexCount++;
-			$parser->mOutput->mIndexes[$indexCount] =  $entry;
+			$parser->getOutput()->mIndexes[$indexCount] =  $entry;
 		}
 
 		if ( !$errors ) {
