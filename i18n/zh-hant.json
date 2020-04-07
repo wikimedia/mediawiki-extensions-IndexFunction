@@ -1,12 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kly",
+			"LNDDYL",
 			"Liangent",
 			"Mark85296341",
 			"Oapbtommy",
-			"Wrightbus",
-			"LNDDYL",
-			"Kly"
+			"Wrightbus"
 		]
 	},
 	"indexfunc-desc": "建立自動重新導向與消歧義頁面的解析函式",

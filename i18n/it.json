@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Beta16",
 			"Civvì",
-			"Darth Kule",
-			"Beta16"
+			"Darth Kule"
 		]
 	},
 	"indexfunc-desc": "Funzione del parser per creare redirect automatici e pagine di disambiguazione",
