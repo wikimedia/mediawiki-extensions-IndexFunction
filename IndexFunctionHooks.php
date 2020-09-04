@@ -25,7 +25,7 @@ class IndexFunctionHooks {
 
 	// Make indexes work like redirects
 	static function doRedirect( &$title, &$request, & $ignoreRedirect, &$target, &$article ) {
-		if ( $article->exists() ) {
+		if ( $article->getPage()->exists() ) {
 			return true;
 		}
 
