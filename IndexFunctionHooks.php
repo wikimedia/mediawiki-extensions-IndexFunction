@@ -196,7 +196,7 @@ class IndexFunctionHooks {
 	}
 
 	// When creating an page, delete its title from the index table
-	static function onCreate( $wikiPage, $user, $content, $summary, $isMinor, $isWatch, $section, $flags, $revision ) {
+	static function onCreate( $wikiPage, $user ) {
 		$t = $wikiPage->getTitle();
 		$ns = $t->getNamespace();
 		$dbkey = $t->getDBkey();
