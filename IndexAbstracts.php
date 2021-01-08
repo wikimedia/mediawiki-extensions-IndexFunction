@@ -107,7 +107,7 @@ class IndexAbstracts {
 			// into text, templates, extensions, and comments:
 			global $wgParser;
 
-			$wgParser->mOptions = new ParserOptions();
+			$wgParser->mOptions = ParserOptions::newFromAnon();
 			$wgParser->clearState();
 
 			$frame = $wgParser->getPreprocessor()->newFrame();
