@@ -12,8 +12,6 @@ class IndexAbstracts {
 	 * @access private
 	 */
 	function _stripMarkup( $text ) {
-		global $wgContLang;
-
 		$text = substr( $text, 0, 4096 ); // don't bother with long text...
 
 		$text = str_replace( "'''", "", $text );

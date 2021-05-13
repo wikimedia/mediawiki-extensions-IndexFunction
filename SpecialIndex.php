@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+
 class SpecialIndexPager extends AlphabeticPager {
 	public $mSearchTitle;
 	private $mJSid = 0;
@@ -72,9 +74,7 @@ class SpecialIndexPager extends AlphabeticPager {
 	}
 
 	protected function sideArrow() {
-		global $wgContLang;
-
-		$dir = $wgContLang->isRTL() ? 'l' : 'r';
+		$dir = MediaWikiServices::getInstance()->getContentLanguage()->isRTL() ? 'l' : 'r';
 
 		return $this->arrow( $dir, '+', $this->msg( 'index-expand-detail' )->text() );
 	}
